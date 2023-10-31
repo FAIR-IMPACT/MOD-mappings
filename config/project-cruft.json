@@ -1,0 +1,14 @@
+{
+  "context": {
+    "cookiecutter": {
+      "project_name": "MOD-mappings",
+      "project_description": "This project provides mappings between the MOD ontology and a number other ontologies",
+      "github_or_gitlab": "github",
+      "git_org": "FAIR-IMPACT",
+      "full_name": "Antony Wilson",
+      "email": "antony.wilson@stfc.ac.uk",
+      "license": "No",
+      "inverse_mappings": "No"
+    }
+  }
+}

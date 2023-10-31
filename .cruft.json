@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/mapping-commons/mapping-commons-cookiecutter",
+  "commit": "992496f2e6b59f98d73734a75016b8f6dd9b2eff",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "MOD-mappings",
+      "__project_slug": "mod_mappings",
+      "project_description": "This project provides mappings between the MOD ontology and a number other ontologies",
+      "github_or_gitlab": "github",
+      "git_org": "FAIR-IMPACT",
+      "full_name": "Antony Wilson",
+      "email": "antony.wilson@stfc.ac.uk",
+      "__author": "Antony Wilson <antony.wilson@stfc.ac.uk>",
+      "license": "No",
+      "inverse_mappings": "No",
+      "_template": "https://github.com/mapping-commons/mapping-commons-cookiecutter"
+    }
+  },
+  "directory": null
+}

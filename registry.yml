@@ -1,0 +1,11 @@
+mapping_registry_id: https://github.com/FAIR-IMPACT/MOD-mappings
+mapping_registry_title: FAIR IMPACT MOD
+mapping_registry_description: FAIR IMPACT mapping registry.
+homepage: https://github.com/FAIR-IMPACT/MOD-mappings
+mapping_set_references:
+- mapping_set_id: https://github.com/FAIR-IMPACT/MOD-mappings/mappings/mod.sssom.tsv
+  mapping_set_group: mod_mappings
+  local_name: mod_mappings.sssom.tsv
+  mapping_set_confidence: '0.8'
+  other:
+    local_id: mod_mappings
