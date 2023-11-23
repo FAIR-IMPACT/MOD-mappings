@@ -1,0 +1,219 @@
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label
+cc:morePermissions	skos:relatedMatch	dcterms:rights	semapv:ManualMappingCuration	More permissions	Rights
+dcat:accessURL	skos:closeMatch	doap:download-page	semapv:ManualMappingCuration	Access URL	download page
+dcat:accessURL	skos:exactMatch	omv:resourceLocator	semapv:ManualMappingCuration	Access URL	resourceLocator
+dcat:byteSize	skos:exactMatch	mod:byteSize	semapv:ManualMappingCuration	Byte size	
+dcat:downloadURL	skos:closeMatch	doap:download-mirror	semapv:ManualMappingCuration	Download URL	download mirror
+dcat:downloadURL	skos:closeMatch	schema:distribution	semapv:ManualMappingCuration	Download URL	distribution
+dcat:downloadURL	skos:relatedMatch	void:dataDump	semapv:ManualMappingCuration	Download URL	Data Dump
+dcat:keyword	skos:closeMatch	mod:keyword	semapv:ManualMappingCuration	Keywords	keyword
+dcat:keyword	skos:exactMatch	omv:keywords	semapv:LexicalMatching	Keywords	keywords
+dcat:keyword	skos:closeMatch	schema:keywords	semapv:LexicalMatching	Keywords	keywords
+dcat:landingPage	skos:closeMatch	doap:wiki	semapv:ManualMappingCuration	Documentation	wiki
+dcat:landingPage	skos:relatedMatch	foaf:page	semapv:ManualMappingCuration	Documentation	page
+dcat:landingPage	skos:broadMatch	mod:document	semapv:ManualMappingCuration	Documentation	document 
+dcat:landingPage	skos:exactMatch	omv:documentation	semapv:LexicalMatching	Documentation	documentation
+dcat:landingPage	skos:closeMatch	rdfs:seeAlso	semapv:ManualMappingCuration	Documentation	seeAlso
+dcat:landingPage	skos:closeMatch	vann:usageNote	semapv:ManualMappingCuration	Documentation	Usage Note
+dcterms:accessRights	skos:exactMatch	dcterms:rights	semapv:ManualMappingCuration	Access rights	Rights
+dcterms:accessRights	skos:relatedMatch	mod:accessibility	semapv:ManualMappingCuration	Access rights	accessibility 
+dcterms:accrualPeriodicity	skos:closeMatch	nkos:updateFrequency	semapv:ManualMappingCuration	Accrual periodicity	Update Frequency
+dcterms:alternative	owl:equivalentProperty	idot:alternatePrefix	semapv:ManualMappingCuration	Alternative name	alternatePrefix
+dcterms:alternative	skos:closeMatch	schema:alternateName	semapv:ManualMappingCuration	Alternative name	alternateName
+dcterms:alternative	skos:exactMatch	skos:altLabel	semapv:ManualMappingCuration	Alternative name	alternative label
+dcterms:audience	skos:exactMatch	doap:audience	semapv:ManualMappingCuration	Target audience	audience
+dcterms:audience	skos:closeMatch	schema:audience	semapv:ManualMappingCuration	Target audience	audience
+dcterms:bibliographicCitation	skos:relatedMatch	foaf:isPrimaryTopicOf	semapv:ManualMappingCuration	Bibliographic reference	is primary topic of
+dcterms:bibliographicCitation	skos:exactMatch	omv:reference	semapv:ManualMappingCuration	Bibliographic reference	reference
+dcterms:bibliographicCitation	skos:closeMatch	schema:citation	semapv:ManualMappingCuration	Bibliographic reference	citation
+dcterms:contributor	skos:closeMatch	doap:developer	semapv:ManualMappingCuration	Contributor	developer
+dcterms:contributor	skos:closeMatch	doap:helper	semapv:ManualMappingCuration	Contributor	helper
+dcterms:contributor	owl:equivalentProperty	oboInOwl:saved-by	semapv:ManualMappingCuration	Contributor	
+dcterms:contributor	owl:equivalentProperty	oboInOwl:savedBy	semapv:ManualMappingCuration	Contributor	
+dcterms:contributor	skos:exactMatch	omv:hasContributor	semapv:ManualMappingCuration	Contributor	hasContributor
+dcterms:contributor	skos:narrowMatch	pav:contributedBy	semapv:ManualMappingCuration	Contributor	Contributed by
+dcterms:contributor	skos:closeMatch	schema:contributor	semapv:LexicalMatching	Contributor	contributor
+dcterms:coverage	skos:narrowMatch	dcterms:spatial	semapv:ManualMappingCuration	Coverage	Spatial Coverage
+dcterms:coverage	skos:narrowMatch	dcterms:temporal	semapv:ManualMappingCuration	Coverage	Temporal Coverage
+dcterms:coverage	skos:relatedMatch	schema:spatial	semapv:ManualMappingCuration	Coverage	spatial
+dcterms:created	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	Creation date	Date
+dcterms:created	skos:closeMatch	dcterms:issued	semapv:ManualMappingCuration	Creation date	Date Issued
+dcterms:created	skos:relatedMatch	mod:creationDate	semapv:ManualMappingCuration	Creation date	creationDate
+dcterms:created	owl:equivalentProperty	oboInOwl:date	semapv:ManualMappingCuration	Creation date	
+dcterms:created	owl:equivalentProperty	oboInOwl:hasDate	semapv:ManualMappingCuration	Creation date	
+dcterms:created	skos:exactMatch	omv:creationDate	semapv:ManualMappingCuration	Creation date	creationDate
+dcterms:created	skos:relatedMatch	pav:authoredOn	semapv:ManualMappingCuration	Creation date	Authored on
+dcterms:created	skos:relatedMatch	pav:contributedOn	semapv:ManualMappingCuration	Creation date	Contributed on
+dcterms:created	skos:exactMatch	pav:createdOn	semapv:ManualMappingCuration	Creation date	Created on
+dcterms:created	skos:exactMatch	prov:generatedAtTime	semapv:ManualMappingCuration	Creation date	generatedAtTime
+dcterms:created	skos:closeMatch	schema:dateCreated	semapv:ManualMappingCuration	Creation date	dateCreated
+dcterms:creator	skos:closeMatch	doap:maintainer	semapv:ManualMappingCuration	Creator	maintainer
+dcterms:creator	skos:exactMatch	foaf:maker	semapv:ManualMappingCuration	Creator	maker
+dcterms:creator	skos:exactMatch	omv:hasCreator	semapv:ManualMappingCuration	Creator	hasCreator
+dcterms:creator	skos:narrowMatch	pav:authoredBy	semapv:ManualMappingCuration	Creator	Authored by
+dcterms:creator	skos:narrowMatch	pav:createdBy	semapv:ManualMappingCuration	Creator	Created by
+dcterms:creator	skos:exactMatch	prov:wasAttributedTo	semapv:ManualMappingCuration	Creator	wasAttributedTo
+dcterms:creator	skos:closeMatch	schema:author	semapv:ManualMappingCuration	Creator	author
+dcterms:dateSubmitted	skos:relatedMatch	schema:datePublished	semapv:ManualMappingCuration	Submission date	datePublished
+dcterms:description	skos:exactMatch	doap:description	semapv:LexicalMatching	Description	description
+dcterms:description	skos:exactMatch	omv:description	semapv:LexicalMatching	Description	description
+dcterms:description	skos:closeMatch	schema:description	semapv:LexicalMatching	Description	description
+dcterms:hasFormat	skos:exactMatch	dcterms:format	semapv:ManualMappingCuration	Has format	Format
+dcterms:hasPart	skos:closeMatch	adms:sample	semapv:ManualMappingCuration	Has part (has views)	sample
+dcterms:hasPart	owl:equivalentProperty	oboInOwl:hasSubset	semapv:ManualMappingCuration	Has part (has views)	
+dcterms:hasPart	skos:closeMatch	schema:hasPart	semapv:ManualMappingCuration	Has part (has views)	hasPart
+dcterms:hasVersion	owl:equivalentProperty	mod:version	semapv:ManualMappingCuration	Has version	
+dcterms:hasVersion	skos:narrowMatch	pav:hasVersion	semapv:LexicalMatching	Has version	Has version
+dcterms:identifier	skos:closeMatch	adms:identifier	semapv:ManualMappingCuration	Other identifier	Identifier
+dcterms:identifier	skos:closeMatch	schema:identifier	semapv:ManualMappingCuration	Other identifier	identifier
+dcterms:identifier	skos:closeMatch	skos:notation	semapv:ManualMappingCuration	Other identifier	notation 
+dcterms:isPartOf	owl:equivalentProperty	door:includedIn	semapv:ManualMappingCuration	Is part of (view of)	includedIn 
+dcterms:isPartOf	owl:equivalentProperty	mod:module	semapv:ManualMappingCuration	Is part of (view of)	module 
+dcterms:isPartOf	skos:closeMatch	schema:isPartOf	semapv:ManualMappingCuration	Is part of (view of)	isPartOf
+dcterms:isPartOf	skos:relatedMatch	void:subset	semapv:ManualMappingCuration	Is part of (view of)	has subset
+dcterms:language	skos:exactMatch	doap:language	semapv:ManualMappingCuration	Natural language	language
+dcterms:language	skos:closeMatch	omv:naturalLanguage	semapv:ManualMappingCuration	Natural language	naturalLanguage
+dcterms:language	skos:exactMatch	schema:inLanguage	semapv:ManualMappingCuration	Natural language	inLanguage
+dcterms:license	skos:exactMatch	cc:license	semapv:ManualMappingCuration	License	has license
+dcterms:license	skos:exactMatch	omv:hasLicense	semapv:ManualMappingCuration	License	hasLicense
+dcterms:license	skos:closeMatch	schema:license	semapv:LexicalMatching	License	license
+dcterms:modified	skos:relatedMatch	doap:created	semapv:ManualMappingCuration	Modification date	created
+dcterms:modified	skos:exactMatch	omv:modificationDate	semapv:ManualMappingCuration	Modification date	modificationDate
+dcterms:modified	skos:exactMatch	pav:lastUpdateOn	semapv:ManualMappingCuration	Modification date	Last updated on
+dcterms:modified	skos:closeMatch	schema:dateModified	semapv:ManualMappingCuration	Modification date	dateModified
+dcterms:publisher	skos:closeMatch	adms:schemaAgency	semapv:ManualMappingCuration	Publisher	schema agency
+dcterms:publisher	skos:closeMatch	schema:publisher	semapv:ManualMappingCuration	Publisher	publisher 
+dcterms:rightsHolder	skos:closeMatch	schema:copyrightHolder	semapv:ManualMappingCuration	Rights holder	copyrightHolder
+dcterms:source	owl:equivalentProperty	mod:sourceOntology	semapv:ManualMappingCuration	Source	
+dcterms:source	skos:closeMatch	nkos:basedOn	semapv:ManualMappingCuration	Source	Based On
+dcterms:source	skos:exactMatch	pav:derivedFrom	semapv:ManualMappingCuration	Source	Derived from
+dcterms:source	skos:exactMatch	prov:wasDerivedFrom	semapv:ManualMappingCuration	Source	wasDerivedFrom
+dcterms:source	skos:relatedMatch	prov:wasInfluencedBy	semapv:ManualMappingCuration	Source	wasInfluencedBy
+dcterms:source	skos:closeMatch	schema:isBasedOn	semapv:ManualMappingCuration	Source	isBasedOn
+dcterms:subject	skos:closeMatch	dcat:theme	semapv:ManualMappingCuration	Subject	theme
+dcterms:subject	skos:closeMatch	foaf:topic	semapv:ManualMappingCuration	Subject	topic
+dcterms:subject	skos:closeMatch	omv:hasDomain	semapv:ManualMappingCuration	Subject	hasDomain
+dcterms:subject	skos:closeMatch	schema:about	semapv:ManualMappingCuration	Subject	about
+dcterms:title	skos:closeMatch	cc:attributionName	semapv:ManualMappingCuration	Title	attributionName
+dcterms:title	skos:closeMatch	foaf:name	semapv:ManualMappingCuration	Title	name
+dcterms:title	skos:closeMatch	omv:name	semapv:ManualMappingCuration	Title	name
+dcterms:title	skos:closeMatch	rdfs:label	semapv:ManualMappingCuration	Title	label
+dcterms:title	skos:closeMatch	schema:name	semapv:ManualMappingCuration	Title	name
+dcterms:title	skos:exactMatch	skos:prefLabel	semapv:ManualMappingCuration	Title	preferred label
+dcterms:type	skos:exactMatch	omv:isOfType	semapv:ManualMappingCuration	Generic Type	isOfType
+dcterms:valid	skos:relatedMatch	prov:invalidatedAtTime	semapv:ManualMappingCuration	Validity date	invalidatedAtTime
+dcterms:valid	skos:closeMatch	schema:temporalCoverage	semapv:ManualMappingCuration	Validity date	temporalCoverage
+foaf:depiction	skos:closeMatch	doap:screenshots	semapv:ManualMappingCuration	Depiction	screenshots
+foaf:depiction	skos:closeMatch	schema:image	semapv:ManualMappingCuration	Depiction	image
+foaf:fundedBy	owl:equivalentProperty	mod:sponsoredBy	semapv:ManualMappingCuration	Funded or sponsored by	
+foaf:fundedBy	skos:relatedMatch	schema:sourceOrganization	semapv:ManualMappingCuration	Funded or sponsored by	sourceOrganization
+foaf:homepage	skos:narrowMatch	cc:attributionURL	semapv:ManualMappingCuration	Homepage	attributionURL
+foaf:homepage	skos:narrowMatch	doap:blog	semapv:ManualMappingCuration	Homepage	blog
+foaf:homepage	skos:exactMatch	mod:homepage	semapv:ManualMappingCuration	Homepage	homepage 
+foaf:homepage	skos:relatedMatch	schema:mainEntityOfPage	semapv:ManualMappingCuration	Homepage	mainEntityOfPage
+foaf:logo	skos:closeMatch	schema:logo	semapv:LexicalMatching	Logo	logo
+foaf:primaryTopic	skos:closeMatch	omv:keyClasses	semapv:ManualMappingCuration	Key classes	keyClasses
+foaf:primaryTopic	skos:closeMatch	schema:mainEntity	semapv:ManualMappingCuration	Key classes	mainEntity
+mod:acronym	skos:exactMatch	omv:acronym	semapv:LexicalMatching	Acronym	acronym
+mod:comesFromTheSameDomain	owl:equivalentProperty	door:comesFromTheSameDomain	semapv:ManualMappingCuration	Comes from the same domain	comesFromTheSameDomain
+mod:conformsToKnowledgeRepresentationParadigm	skos:closeMatch	dcterms:conformsTo	semapv:ManualMappingCuration	Knowledge representation paradigm	Conforms To
+mod:conformsToKnowledgeRepresentationParadigm	skos:exactMatch	mod:knowledgeRepresentationFormalism	semapv:ManualMappingCuration	Knowledge representation paradigm	Knowledge Representation Formalism
+mod:conformsToKnowledgeRepresentationParadigm	skos:exactMatch	omv:conformsToKnowledgeRepresentationParadigm	semapv:ManualMappingCuration	Knowledge representation paradigm	conformsToKnowledgeRepresentationParadigm
+mod:designedForTask	skos:closeMatch	omv:designedForOntologyTask	semapv:ManualMappingCuration	Designed for task	designedForOntologyTask
+mod:endorsedBy	skos:exactMatch	omv:endorsedBy	semapv:ManualMappingCuration	Endorsed by	endorsedBy
+mod:generalizes	skos:exactMatch	prov:generalizationOf	semapv:ManualMappingCuration	Generalizes	generalizationOf
+mod:generalizes	skos:exactMatch	voaf:generalizes	semapv:LexicalMatching	Generalizes	generalizes
+mod:hasDisjunctionsWith	skos:exactMatch	voaf:hasDisjunctionsWith	semapv:LexicalMatching	Has disjunctions with	has disjunctions with
+mod:hasDisparateModelling		door:hasDisparateModelling	semapv:ManualMappingCuration	Disparate modelling with	hasDisparateModelling
+mod:hasEquivalencesWith	owl:equivalentProperty	door:isAlignedTo	semapv:ManualMappingCuration	Has equivalences with	isAlignedTo 
+mod:hasEquivalencesWith	skos:closeMatch	nkos:alignedWith	semapv:ManualMappingCuration	Has equivalences with	Aligned With
+mod:hasEquivalencesWith	skos:exactMatch	voaf:hasEquivalencesWith	semapv:LexicalMatching	Has equivalences with	has equivalences with
+mod:hasEvaluation	skos:relatedMatch	schema:review	semapv:ManualMappingCuration	Evaluation	review
+mod:hasFormalityLevel	skos:exactMatch	mod:formalityLevel	semapv:LexicalMatching	Formality level	formality level
+mod:hasFormalityLevel	skos:exactMatch	omv:hasFormalityLevel	semapv:ManualMappingCuration	Formality level	hasFormalityLevel
+mod:hasRepresentationLanguage	owl:equivalentProperty	mod:ontologyDesignLanguage	semapv:ManualMappingCuration	Representation Language	
+mod:hasRepresentationLanguage	skos:closeMatch	omv:hasOntologyLanguage	semapv:ManualMappingCuration	Representation Language	hasOntologyLanguage
+mod:hasRepresentationLanguage	skos:relatedMatch	schema:fileFormat	semapv:ManualMappingCuration	Representation Language	fileFormat
+mod:hasSyntax	skos:closeMatch	dcterms:format	semapv:ManualMappingCuration	Syntax	Format
+mod:hasSyntax	owl:equivalentProperty	mod:syntax	semapv:ManualMappingCuration	Syntax	
+mod:hasSyntax	skos:closeMatch	omv:hasOntologySyntax	semapv:ManualMappingCuration	Syntax	hasOntologySyntax
+mod:knownUsage	skos:exactMatch	omv:knownUsage	semapv:ManualMappingCuration	Known usage	knownUsage
+mod:metadataVoc	skos:closeMatch	adms:supportedSchema	semapv:ManualMappingCuration	Metadata vocabulary used	supported schema
+mod:metadataVoc	owl:equivalentProperty	mod:vocabularyUsed	semapv:ManualMappingCuration	Metadata vocabulary used	
+mod:metadataVoc	skos:closeMatch	schema:schemaVersion	semapv:ManualMappingCuration	Metadata vocabulary used	schemaVersion
+mod:metadataVoc	skos:exactMatch	voaf:metadataVoc	semapv:ManualMappingCuration	Metadata vocabulary used	metadata vocabulary
+mod:numberOfAxioms	owl:equivalentProperty	mod:noOfAxioms	semapv:ManualMappingCuration	Number of axioms or triples	
+mod:numberOfAxioms	skos:exactMatch	omv:numberOfAxioms	semapv:ManualMappingCuration	Number of axioms or triples	numAxioms
+mod:numberOfAxioms	skos:closeMatch	void:triples	semapv:ManualMappingCuration	Number of axioms or triples	number of triples
+mod:numberOfClasses	skos:exactMatch	mod:noOfClasses	semapv:ManualMappingCuration	Number of classes	noOfClasses
+mod:numberOfClasses	skos:exactMatch	omv:numberOfClasses	semapv:ManualMappingCuration	Number of classes	numClasses
+mod:numberOfClasses	skos:narrowMatch	voaf:classNumber	semapv:LexicalMatching	Number of classes	number of classes
+mod:numberOfClasses	skos:exactMatch	void:classes	semapv:ManualMappingCuration	Number of classes	classes
+mod:numberOfIndividuals	owl:equivalentProperty	mod:noOfIndividuals	semapv:ManualMappingCuration	Number of individuals	
+mod:numberOfIndividuals	skos:exactMatch	omv:numberOfIndividuals	semapv:ManualMappingCuration	Number of individuals	numIndividuals
+mod:numberOfIndividuals	skos:closeMatch	void:entities	semapv:ManualMappingCuration	Number of individuals	number of entities
+mod:numberOfProperties	skos:exactMatch	mod:noOfProperties	semapv:ManualMappingCuration	Number of properties	noOfProperties
+mod:numberOfProperties	skos:exactMatch	omv:numberOfProperties	semapv:ManualMappingCuration	Number of properties	numProperties
+mod:numberOfProperties	skos:exactMatch	voaf:propertyNumber	semapv:LexicalMatching	Number of properties	number of properties
+mod:numberOfProperties	skos:exactMatch	void:properties	semapv:LexicalMatching	Number of properties	number of properties
+mod:reliesOn	skos:exactMatch	voaf:reliesOn	semapv:LexicalMatching	Relies on	relies on
+mod:reliesOn	skos:relatedMatch	void:vocabulary	semapv:ManualMappingCuration	Relies on	vocabulary
+mod:semanticArtefactRelation	owl:equivalentProperty	door:ontologyRelatedTo	semapv:ManualMappingCuration	Generaly related to	ontologyRelatedTo
+mod:similar		door:similarTo	semapv:ManualMappingCuration	Similar to	similarTo
+mod:similar	skos:exactMatch	voaf:similar	semapv:ManualMappingCuration	Similar to	similar
+mod:specializes		door:explanationEvolution	semapv:ManualMappingCuration	Specializes	explanationEvolution
+mod:specializes	skos:exactMatch	prov:specializationOf	semapv:ManualMappingCuration	Specializes	specializationOf
+mod:specializes	skos:exactMatch	voaf:specializes	semapv:LexicalMatching	Specializes	specializes
+mod:status	skos:exactMatch	adms:status	semapv:LexicalMatching	Status	status
+mod:status		idot:state	semapv:ManualMappingCuration	Status	state
+mod:status	skos:exactMatch	omv:status	semapv:LexicalMatching	Status	status
+mod:synonymProperty		oboInOwl:hasSynonymType	semapv:ManualMappingCuration	Object synonym property	
+mod:synonymProperty		oboInOwl:synonymtypedef	semapv:ManualMappingCuration	Object synonym property	
+mod:toDoList	skos:exactMatch	voaf:toDoList	semapv:ManualMappingCuration	To Do List	to-do list
+mod:URI	skos:exactMatch	omv:URI	semapv:LexicalMatching	URI	URI
+mod:URI		owl:ontologyIRI	semapv:ManualMappingCuration	URI	
+mod:usedBy	skos:exactMatch	nkos:usedBy	semapv:LexicalMatching	Used by	Used By
+mod:usedBy	skos:exactMatch	voaf:usedBy	semapv:LexicalMatching	Used by	used by
+mod:usedEngineeringMethodology	skos:closeMatch	adms:representationTechnique	semapv:ManualMappingCuration	Engineering Methodology	representation technique
+mod:usedEngineeringMethodology	skos:exactMatch	mod:methodologyUsed	semapv:ManualMappingCuration	Engineering Methodology	methodology used
+mod:usedEngineeringMethodology	skos:closeMatch	omv:usedOntologyEngineeringMethodology	semapv:ManualMappingCuration	Engineering Methodology	usedOntologyEngineeringMethodology 
+mod:usedEngineeringMethodology	skos:relatedMatch	schema:publishingPrinciples	semapv:ManualMappingCuration	Engineering Methodology	publishingPrinciples
+mod:usedInProject	skos:exactMatch	mod:ontologyInUse	semapv:ManualMappingCuration	Used in project	ontology in use
+owl:backwardCompatibleWith		door:backwardCompatibleWith	semapv:ManualMappingCuration	Backward Compatible	backwardCompatibleWith
+owl:backwardCompatibleWith	skos:exactMatch	omv:isBackwardCompatibleWith	semapv:ManualMappingCuration	Backward Compatible	isBackwardCompatibleWith
+owl:deprecated		idot:obsolete	semapv:ManualMappingCuration	Deprecated	obsolete
+owl:deprecated	skos:exactMatch	mod:obsolete	semapv:ManualMappingCuration	Deprecated	obsolete
+owl:imports	skos:relatedMatch	dcterms:requires	semapv:ManualMappingCuration	Imports	Requires
+owl:imports	skos:exactMatch	omv:useImports	semapv:ManualMappingCuration	Imports	useImports
+owl:imports	skos:narrowMatch	voaf:extends	semapv:ManualMappingCuration	Imports	extends
+owl:incompatibleWith		door:owlIncompatibleWith	semapv:ManualMappingCuration	Incompatible	owlIncompatibleWith 
+owl:incompatibleWith	skos:exactMatch	omv:isIncompatibleWith	semapv:ManualMappingCuration	Incompatible	isIncompatibleWith
+owl:priorVersion	skos:exactMatch	adms:prev	semapv:ManualMappingCuration	Prior version	prev
+owl:priorVersion	skos:relatedMatch	dcterms:isVersionOf	semapv:ManualMappingCuration	Prior version	Is Version Of
+owl:priorVersion	skos:exactMatch	door:priorVersion	semapv:ManualMappingCuration	Prior version	priorVersion 
+owl:priorVersion	skos:exactMatch	omv:hasPriorVersion	semapv:ManualMappingCuration	Prior version	hasPriorVersion 
+owl:priorVersion	skos:exactMatch	prov:wasRevisionOf	semapv:ManualMappingCuration	Prior version	wasRevisionOf
+owl:versionInfo	skos:exactMatch	doap:release	semapv:ManualMappingCuration	Version information	release
+owl:versionInfo	skos:closeMatch	mod:version	semapv:ManualMappingCuration	Version information	version
+owl:versionInfo		oboInOwl:data-version	semapv:ManualMappingCuration	Version information	
+owl:versionInfo		oboInOwl:hasVersion	semapv:ManualMappingCuration	Version information	
+owl:versionInfo	skos:exactMatch	omv:version	semapv:ManualMappingCuration	Version information	version
+owl:versionInfo	skos:exactMatch	pav:version	semapv:ManualMappingCuration	Version information	Version
+owl:versionInfo	skos:closeMatch	schema:version	semapv:ManualMappingCuration	Version information	version
+pav:createdWith	skos:closeMatch	mod:toolUsed	semapv:ManualMappingCuration	Created with	tool used
+pav:createdWith		oboInOwl:auto-generated-by	semapv:ManualMappingCuration	Created with	
+pav:createdWith	skos:closeMatch	omv:usedOntologyEngineeringTool	semapv:ManualMappingCuration	Created with	usedOntologyEngineeringTool
+rdfs:comment	skos:narrowMatch	adms:versionNotes	semapv:ManualMappingCuration	Notes or comments	version notes
+rdfs:comment	skos:closeMatch	omv:notes	semapv:ManualMappingCuration	Notes or comments	notes
+schema:translationOfWork	skos:exactMatch	adms:translation	semapv:ManualMappingCuration	Translation of	translation
+schema:workTranslation	skos:exactMatch	adms:translation	semapv:LexicalMatching	Translation	translation
+schema:workTranslation		mod:translation	semapv:ManualMappingCuration	Translation	
+sd:endpoint	skos:exactMatch	void:sparqlEndpoint	semapv:ManualMappingCuration	SPARQL endpoint	has a SPARQL endpoint at
+vann:example	skos:relatedMatch	schema:workExample	semapv:ManualMappingCuration	Example of use	workExample
+vann:preferredNamespacePrefix		idot:preferredPrefix	semapv:ManualMappingCuration	Preferred Namespace Prefix	preferredPrefix
+vann:preferredNamespacePrefix		oboInOwl:default-namespace	semapv:ManualMappingCuration	Preferred Namespace Prefix	
+vann:preferredNamespacePrefix		oboInOwl:hasDefaultNamespace	semapv:ManualMappingCuration	Preferred Namespace Prefix	
+vann:preferredNamespaceUri	skos:relatedMatch	void:uriSpace	semapv:ManualMappingCuration	Preferred Namespace URI	URI space
+void:exampleResource		idot:exampleIdentifier	semapv:ManualMappingCuration	Example of resource	exampleIdentifier
+void:rootResource	skos:relatedMatch	skos:hasTopConcept	semapv:ManualMappingCuration	Root resources	label
+void:uriRegexPattern		idot:identifierPattern	semapv:ManualMappingCuration	Identifier pattern	identifierPattern
