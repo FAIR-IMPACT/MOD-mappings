@@ -43,6 +43,7 @@ mappings:
 validate-%:
 	tsvalid $(MAPPING_DIR)/$*.sssom.tsv --comment "#"
 	$(SSSOM_TOOLKIT) validate $(MAPPING_DIR)/$*.sssom.tsv
+	mkdir -p $(TMP_DIR)
 	$(SSSOM_TOOLKIT) convert $(MAPPING_DIR)/$*.sssom.tsv --output-format rdf -o $(TMP_DIR)/$*.sssom.ttl
 
 MAPPINGS=$(notdir $(wildcard $(MAPPING_DIR)/*.sssom.tsv))
