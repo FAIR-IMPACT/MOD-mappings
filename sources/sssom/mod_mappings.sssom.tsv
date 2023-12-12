@@ -1,219 +1,506 @@
-subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label
-cc:morePermissions	skos:relatedMatch	dcterms:rights	semapv:ManualMappingCuration	More permissions	Rights
-dcat:accessURL	skos:closeMatch	doap:download-page	semapv:ManualMappingCuration	Access URL	download page
-dcat:accessURL	skos:exactMatch	omv:resourceLocator	semapv:ManualMappingCuration	Access URL	resourceLocator
-dcat:byteSize	skos:exactMatch	mod:byteSize	semapv:ManualMappingCuration	Byte size	
-dcat:downloadURL	skos:closeMatch	doap:download-mirror	semapv:ManualMappingCuration	Download URL	download mirror
-dcat:downloadURL	skos:closeMatch	schema:distribution	semapv:ManualMappingCuration	Download URL	distribution
-dcat:downloadURL	skos:relatedMatch	void:dataDump	semapv:ManualMappingCuration	Download URL	Data Dump
-dcat:keyword	skos:closeMatch	mod:keyword	semapv:ManualMappingCuration	Keywords	keyword
-dcat:keyword	skos:exactMatch	omv:keywords	semapv:LexicalMatching	Keywords	keywords
-dcat:keyword	skos:closeMatch	schema:keywords	semapv:LexicalMatching	Keywords	keywords
-dcat:landingPage	skos:closeMatch	doap:wiki	semapv:ManualMappingCuration	Documentation	wiki
-dcat:landingPage	skos:relatedMatch	foaf:page	semapv:ManualMappingCuration	Documentation	page
-dcat:landingPage	skos:broadMatch	mod:document	semapv:ManualMappingCuration	Documentation	document 
-dcat:landingPage	skos:exactMatch	omv:documentation	semapv:LexicalMatching	Documentation	documentation
-dcat:landingPage	skos:closeMatch	rdfs:seeAlso	semapv:ManualMappingCuration	Documentation	seeAlso
-dcat:landingPage	skos:closeMatch	vann:usageNote	semapv:ManualMappingCuration	Documentation	Usage Note
-dcterms:accessRights	skos:exactMatch	dcterms:rights	semapv:ManualMappingCuration	Access rights	Rights
-dcterms:accessRights	skos:relatedMatch	mod:accessibility	semapv:ManualMappingCuration	Access rights	accessibility 
-dcterms:accrualPeriodicity	skos:closeMatch	nkos:updateFrequency	semapv:ManualMappingCuration	Accrual periodicity	Update Frequency
-dcterms:alternative	owl:equivalentProperty	idot:alternatePrefix	semapv:ManualMappingCuration	Alternative name	alternatePrefix
-dcterms:alternative	skos:closeMatch	schema:alternateName	semapv:ManualMappingCuration	Alternative name	alternateName
-dcterms:alternative	skos:exactMatch	skos:altLabel	semapv:ManualMappingCuration	Alternative name	alternative label
-dcterms:audience	skos:exactMatch	doap:audience	semapv:ManualMappingCuration	Target audience	audience
-dcterms:audience	skos:closeMatch	schema:audience	semapv:ManualMappingCuration	Target audience	audience
-dcterms:bibliographicCitation	skos:relatedMatch	foaf:isPrimaryTopicOf	semapv:ManualMappingCuration	Bibliographic reference	is primary topic of
-dcterms:bibliographicCitation	skos:exactMatch	omv:reference	semapv:ManualMappingCuration	Bibliographic reference	reference
-dcterms:bibliographicCitation	skos:closeMatch	schema:citation	semapv:ManualMappingCuration	Bibliographic reference	citation
-dcterms:contributor	skos:closeMatch	doap:developer	semapv:ManualMappingCuration	Contributor	developer
-dcterms:contributor	skos:closeMatch	doap:helper	semapv:ManualMappingCuration	Contributor	helper
-dcterms:contributor	owl:equivalentProperty	oboInOwl:saved-by	semapv:ManualMappingCuration	Contributor	
-dcterms:contributor	owl:equivalentProperty	oboInOwl:savedBy	semapv:ManualMappingCuration	Contributor	
-dcterms:contributor	skos:exactMatch	omv:hasContributor	semapv:ManualMappingCuration	Contributor	hasContributor
-dcterms:contributor	skos:narrowMatch	pav:contributedBy	semapv:ManualMappingCuration	Contributor	Contributed by
-dcterms:contributor	skos:closeMatch	schema:contributor	semapv:LexicalMatching	Contributor	contributor
-dcterms:coverage	skos:narrowMatch	dcterms:spatial	semapv:ManualMappingCuration	Coverage	Spatial Coverage
-dcterms:coverage	skos:narrowMatch	dcterms:temporal	semapv:ManualMappingCuration	Coverage	Temporal Coverage
-dcterms:coverage	skos:relatedMatch	schema:spatial	semapv:ManualMappingCuration	Coverage	spatial
-dcterms:created	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	Creation date	Date
-dcterms:created	skos:closeMatch	dcterms:issued	semapv:ManualMappingCuration	Creation date	Date Issued
-dcterms:created	skos:relatedMatch	mod:creationDate	semapv:ManualMappingCuration	Creation date	creationDate
-dcterms:created	owl:equivalentProperty	oboInOwl:date	semapv:ManualMappingCuration	Creation date	
-dcterms:created	owl:equivalentProperty	oboInOwl:hasDate	semapv:ManualMappingCuration	Creation date	
-dcterms:created	skos:exactMatch	omv:creationDate	semapv:ManualMappingCuration	Creation date	creationDate
-dcterms:created	skos:relatedMatch	pav:authoredOn	semapv:ManualMappingCuration	Creation date	Authored on
-dcterms:created	skos:relatedMatch	pav:contributedOn	semapv:ManualMappingCuration	Creation date	Contributed on
-dcterms:created	skos:exactMatch	pav:createdOn	semapv:ManualMappingCuration	Creation date	Created on
-dcterms:created	skos:exactMatch	prov:generatedAtTime	semapv:ManualMappingCuration	Creation date	generatedAtTime
-dcterms:created	skos:closeMatch	schema:dateCreated	semapv:ManualMappingCuration	Creation date	dateCreated
-dcterms:creator	skos:closeMatch	doap:maintainer	semapv:ManualMappingCuration	Creator	maintainer
-dcterms:creator	skos:exactMatch	foaf:maker	semapv:ManualMappingCuration	Creator	maker
-dcterms:creator	skos:exactMatch	omv:hasCreator	semapv:ManualMappingCuration	Creator	hasCreator
-dcterms:creator	skos:narrowMatch	pav:authoredBy	semapv:ManualMappingCuration	Creator	Authored by
-dcterms:creator	skos:narrowMatch	pav:createdBy	semapv:ManualMappingCuration	Creator	Created by
-dcterms:creator	skos:exactMatch	prov:wasAttributedTo	semapv:ManualMappingCuration	Creator	wasAttributedTo
-dcterms:creator	skos:closeMatch	schema:author	semapv:ManualMappingCuration	Creator	author
-dcterms:dateSubmitted	skos:relatedMatch	schema:datePublished	semapv:ManualMappingCuration	Submission date	datePublished
-dcterms:description	skos:exactMatch	doap:description	semapv:LexicalMatching	Description	description
-dcterms:description	skos:exactMatch	omv:description	semapv:LexicalMatching	Description	description
-dcterms:description	skos:closeMatch	schema:description	semapv:LexicalMatching	Description	description
-dcterms:hasFormat	skos:exactMatch	dcterms:format	semapv:ManualMappingCuration	Has format	Format
-dcterms:hasPart	skos:closeMatch	adms:sample	semapv:ManualMappingCuration	Has part (has views)	sample
-dcterms:hasPart	owl:equivalentProperty	oboInOwl:hasSubset	semapv:ManualMappingCuration	Has part (has views)	
-dcterms:hasPart	skos:closeMatch	schema:hasPart	semapv:ManualMappingCuration	Has part (has views)	hasPart
-dcterms:hasVersion	owl:equivalentProperty	mod:version	semapv:ManualMappingCuration	Has version	
-dcterms:hasVersion	skos:narrowMatch	pav:hasVersion	semapv:LexicalMatching	Has version	Has version
-dcterms:identifier	skos:closeMatch	adms:identifier	semapv:ManualMappingCuration	Other identifier	Identifier
-dcterms:identifier	skos:closeMatch	schema:identifier	semapv:ManualMappingCuration	Other identifier	identifier
-dcterms:identifier	skos:closeMatch	skos:notation	semapv:ManualMappingCuration	Other identifier	notation 
-dcterms:isPartOf	owl:equivalentProperty	door:includedIn	semapv:ManualMappingCuration	Is part of (view of)	includedIn 
-dcterms:isPartOf	owl:equivalentProperty	mod:module	semapv:ManualMappingCuration	Is part of (view of)	module 
-dcterms:isPartOf	skos:closeMatch	schema:isPartOf	semapv:ManualMappingCuration	Is part of (view of)	isPartOf
-dcterms:isPartOf	skos:relatedMatch	void:subset	semapv:ManualMappingCuration	Is part of (view of)	has subset
-dcterms:language	skos:exactMatch	doap:language	semapv:ManualMappingCuration	Natural language	language
-dcterms:language	skos:closeMatch	omv:naturalLanguage	semapv:ManualMappingCuration	Natural language	naturalLanguage
-dcterms:language	skos:exactMatch	schema:inLanguage	semapv:ManualMappingCuration	Natural language	inLanguage
-dcterms:license	skos:exactMatch	cc:license	semapv:ManualMappingCuration	License	has license
-dcterms:license	skos:exactMatch	omv:hasLicense	semapv:ManualMappingCuration	License	hasLicense
-dcterms:license	skos:closeMatch	schema:license	semapv:LexicalMatching	License	license
-dcterms:modified	skos:relatedMatch	doap:created	semapv:ManualMappingCuration	Modification date	created
-dcterms:modified	skos:exactMatch	omv:modificationDate	semapv:ManualMappingCuration	Modification date	modificationDate
-dcterms:modified	skos:exactMatch	pav:lastUpdateOn	semapv:ManualMappingCuration	Modification date	Last updated on
-dcterms:modified	skos:closeMatch	schema:dateModified	semapv:ManualMappingCuration	Modification date	dateModified
-dcterms:publisher	skos:closeMatch	adms:schemaAgency	semapv:ManualMappingCuration	Publisher	schema agency
-dcterms:publisher	skos:closeMatch	schema:publisher	semapv:ManualMappingCuration	Publisher	publisher 
-dcterms:rightsHolder	skos:closeMatch	schema:copyrightHolder	semapv:ManualMappingCuration	Rights holder	copyrightHolder
-dcterms:source	owl:equivalentProperty	mod:sourceOntology	semapv:ManualMappingCuration	Source	
-dcterms:source	skos:closeMatch	nkos:basedOn	semapv:ManualMappingCuration	Source	Based On
-dcterms:source	skos:exactMatch	pav:derivedFrom	semapv:ManualMappingCuration	Source	Derived from
-dcterms:source	skos:exactMatch	prov:wasDerivedFrom	semapv:ManualMappingCuration	Source	wasDerivedFrom
-dcterms:source	skos:relatedMatch	prov:wasInfluencedBy	semapv:ManualMappingCuration	Source	wasInfluencedBy
-dcterms:source	skos:closeMatch	schema:isBasedOn	semapv:ManualMappingCuration	Source	isBasedOn
-dcterms:subject	skos:closeMatch	dcat:theme	semapv:ManualMappingCuration	Subject	theme
-dcterms:subject	skos:closeMatch	foaf:topic	semapv:ManualMappingCuration	Subject	topic
-dcterms:subject	skos:closeMatch	omv:hasDomain	semapv:ManualMappingCuration	Subject	hasDomain
-dcterms:subject	skos:closeMatch	schema:about	semapv:ManualMappingCuration	Subject	about
-dcterms:title	skos:closeMatch	cc:attributionName	semapv:ManualMappingCuration	Title	attributionName
-dcterms:title	skos:closeMatch	foaf:name	semapv:ManualMappingCuration	Title	name
-dcterms:title	skos:closeMatch	omv:name	semapv:ManualMappingCuration	Title	name
-dcterms:title	skos:closeMatch	rdfs:label	semapv:ManualMappingCuration	Title	label
-dcterms:title	skos:closeMatch	schema:name	semapv:ManualMappingCuration	Title	name
-dcterms:title	skos:exactMatch	skos:prefLabel	semapv:ManualMappingCuration	Title	preferred label
-dcterms:type	skos:exactMatch	omv:isOfType	semapv:ManualMappingCuration	Generic Type	isOfType
-dcterms:valid	skos:relatedMatch	prov:invalidatedAtTime	semapv:ManualMappingCuration	Validity date	invalidatedAtTime
-dcterms:valid	skos:closeMatch	schema:temporalCoverage	semapv:ManualMappingCuration	Validity date	temporalCoverage
-foaf:depiction	skos:closeMatch	doap:screenshots	semapv:ManualMappingCuration	Depiction	screenshots
-foaf:depiction	skos:closeMatch	schema:image	semapv:ManualMappingCuration	Depiction	image
-foaf:fundedBy	owl:equivalentProperty	mod:sponsoredBy	semapv:ManualMappingCuration	Funded or sponsored by	
-foaf:fundedBy	skos:relatedMatch	schema:sourceOrganization	semapv:ManualMappingCuration	Funded or sponsored by	sourceOrganization
-foaf:homepage	skos:narrowMatch	cc:attributionURL	semapv:ManualMappingCuration	Homepage	attributionURL
-foaf:homepage	skos:narrowMatch	doap:blog	semapv:ManualMappingCuration	Homepage	blog
-foaf:homepage	skos:exactMatch	mod:homepage	semapv:ManualMappingCuration	Homepage	homepage 
-foaf:homepage	skos:relatedMatch	schema:mainEntityOfPage	semapv:ManualMappingCuration	Homepage	mainEntityOfPage
-foaf:logo	skos:closeMatch	schema:logo	semapv:LexicalMatching	Logo	logo
-foaf:primaryTopic	skos:closeMatch	omv:keyClasses	semapv:ManualMappingCuration	Key classes	keyClasses
-foaf:primaryTopic	skos:closeMatch	schema:mainEntity	semapv:ManualMappingCuration	Key classes	mainEntity
-mod:acronym	skos:exactMatch	omv:acronym	semapv:LexicalMatching	Acronym	acronym
-mod:comesFromTheSameDomain	owl:equivalentProperty	door:comesFromTheSameDomain	semapv:ManualMappingCuration	Comes from the same domain	comesFromTheSameDomain
-mod:conformsToKnowledgeRepresentationParadigm	skos:closeMatch	dcterms:conformsTo	semapv:ManualMappingCuration	Knowledge representation paradigm	Conforms To
-mod:conformsToKnowledgeRepresentationParadigm	skos:exactMatch	mod:knowledgeRepresentationFormalism	semapv:ManualMappingCuration	Knowledge representation paradigm	Knowledge Representation Formalism
-mod:conformsToKnowledgeRepresentationParadigm	skos:exactMatch	omv:conformsToKnowledgeRepresentationParadigm	semapv:ManualMappingCuration	Knowledge representation paradigm	conformsToKnowledgeRepresentationParadigm
-mod:designedForTask	skos:closeMatch	omv:designedForOntologyTask	semapv:ManualMappingCuration	Designed for task	designedForOntologyTask
-mod:endorsedBy	skos:exactMatch	omv:endorsedBy	semapv:ManualMappingCuration	Endorsed by	endorsedBy
-mod:generalizes	skos:exactMatch	prov:generalizationOf	semapv:ManualMappingCuration	Generalizes	generalizationOf
-mod:generalizes	skos:exactMatch	voaf:generalizes	semapv:LexicalMatching	Generalizes	generalizes
-mod:hasDisjunctionsWith	skos:exactMatch	voaf:hasDisjunctionsWith	semapv:LexicalMatching	Has disjunctions with	has disjunctions with
-mod:hasDisparateModelling		door:hasDisparateModelling	semapv:ManualMappingCuration	Disparate modelling with	hasDisparateModelling
-mod:hasEquivalencesWith	owl:equivalentProperty	door:isAlignedTo	semapv:ManualMappingCuration	Has equivalences with	isAlignedTo 
-mod:hasEquivalencesWith	skos:closeMatch	nkos:alignedWith	semapv:ManualMappingCuration	Has equivalences with	Aligned With
-mod:hasEquivalencesWith	skos:exactMatch	voaf:hasEquivalencesWith	semapv:LexicalMatching	Has equivalences with	has equivalences with
-mod:hasEvaluation	skos:relatedMatch	schema:review	semapv:ManualMappingCuration	Evaluation	review
-mod:hasFormalityLevel	skos:exactMatch	mod:formalityLevel	semapv:LexicalMatching	Formality level	formality level
-mod:hasFormalityLevel	skos:exactMatch	omv:hasFormalityLevel	semapv:ManualMappingCuration	Formality level	hasFormalityLevel
-mod:hasRepresentationLanguage	owl:equivalentProperty	mod:ontologyDesignLanguage	semapv:ManualMappingCuration	Representation Language	
-mod:hasRepresentationLanguage	skos:closeMatch	omv:hasOntologyLanguage	semapv:ManualMappingCuration	Representation Language	hasOntologyLanguage
-mod:hasRepresentationLanguage	skos:relatedMatch	schema:fileFormat	semapv:ManualMappingCuration	Representation Language	fileFormat
-mod:hasSyntax	skos:closeMatch	dcterms:format	semapv:ManualMappingCuration	Syntax	Format
-mod:hasSyntax	owl:equivalentProperty	mod:syntax	semapv:ManualMappingCuration	Syntax	
-mod:hasSyntax	skos:closeMatch	omv:hasOntologySyntax	semapv:ManualMappingCuration	Syntax	hasOntologySyntax
-mod:knownUsage	skos:exactMatch	omv:knownUsage	semapv:ManualMappingCuration	Known usage	knownUsage
-mod:metadataVoc	skos:closeMatch	adms:supportedSchema	semapv:ManualMappingCuration	Metadata vocabulary used	supported schema
-mod:metadataVoc	owl:equivalentProperty	mod:vocabularyUsed	semapv:ManualMappingCuration	Metadata vocabulary used	
-mod:metadataVoc	skos:closeMatch	schema:schemaVersion	semapv:ManualMappingCuration	Metadata vocabulary used	schemaVersion
-mod:metadataVoc	skos:exactMatch	voaf:metadataVoc	semapv:ManualMappingCuration	Metadata vocabulary used	metadata vocabulary
-mod:numberOfAxioms	owl:equivalentProperty	mod:noOfAxioms	semapv:ManualMappingCuration	Number of axioms or triples	
-mod:numberOfAxioms	skos:exactMatch	omv:numberOfAxioms	semapv:ManualMappingCuration	Number of axioms or triples	numAxioms
-mod:numberOfAxioms	skos:closeMatch	void:triples	semapv:ManualMappingCuration	Number of axioms or triples	number of triples
-mod:numberOfClasses	skos:exactMatch	mod:noOfClasses	semapv:ManualMappingCuration	Number of classes	noOfClasses
-mod:numberOfClasses	skos:exactMatch	omv:numberOfClasses	semapv:ManualMappingCuration	Number of classes	numClasses
-mod:numberOfClasses	skos:narrowMatch	voaf:classNumber	semapv:LexicalMatching	Number of classes	number of classes
-mod:numberOfClasses	skos:exactMatch	void:classes	semapv:ManualMappingCuration	Number of classes	classes
-mod:numberOfIndividuals	owl:equivalentProperty	mod:noOfIndividuals	semapv:ManualMappingCuration	Number of individuals	
-mod:numberOfIndividuals	skos:exactMatch	omv:numberOfIndividuals	semapv:ManualMappingCuration	Number of individuals	numIndividuals
-mod:numberOfIndividuals	skos:closeMatch	void:entities	semapv:ManualMappingCuration	Number of individuals	number of entities
-mod:numberOfProperties	skos:exactMatch	mod:noOfProperties	semapv:ManualMappingCuration	Number of properties	noOfProperties
-mod:numberOfProperties	skos:exactMatch	omv:numberOfProperties	semapv:ManualMappingCuration	Number of properties	numProperties
-mod:numberOfProperties	skos:exactMatch	voaf:propertyNumber	semapv:LexicalMatching	Number of properties	number of properties
-mod:numberOfProperties	skos:exactMatch	void:properties	semapv:LexicalMatching	Number of properties	number of properties
-mod:reliesOn	skos:exactMatch	voaf:reliesOn	semapv:LexicalMatching	Relies on	relies on
-mod:reliesOn	skos:relatedMatch	void:vocabulary	semapv:ManualMappingCuration	Relies on	vocabulary
-mod:semanticArtefactRelation	owl:equivalentProperty	door:ontologyRelatedTo	semapv:ManualMappingCuration	Generaly related to	ontologyRelatedTo
-mod:similar		door:similarTo	semapv:ManualMappingCuration	Similar to	similarTo
-mod:similar	skos:exactMatch	voaf:similar	semapv:ManualMappingCuration	Similar to	similar
-mod:specializes		door:explanationEvolution	semapv:ManualMappingCuration	Specializes	explanationEvolution
-mod:specializes	skos:exactMatch	prov:specializationOf	semapv:ManualMappingCuration	Specializes	specializationOf
-mod:specializes	skos:exactMatch	voaf:specializes	semapv:LexicalMatching	Specializes	specializes
-mod:status	skos:exactMatch	adms:status	semapv:LexicalMatching	Status	status
-mod:status		idot:state	semapv:ManualMappingCuration	Status	state
-mod:status	skos:exactMatch	omv:status	semapv:LexicalMatching	Status	status
-mod:synonymProperty		oboInOwl:hasSynonymType	semapv:ManualMappingCuration	Object synonym property	
-mod:synonymProperty		oboInOwl:synonymtypedef	semapv:ManualMappingCuration	Object synonym property	
-mod:toDoList	skos:exactMatch	voaf:toDoList	semapv:ManualMappingCuration	To Do List	to-do list
-mod:URI	skos:exactMatch	omv:URI	semapv:LexicalMatching	URI	URI
-mod:URI		owl:ontologyIRI	semapv:ManualMappingCuration	URI	
-mod:usedBy	skos:exactMatch	nkos:usedBy	semapv:LexicalMatching	Used by	Used By
-mod:usedBy	skos:exactMatch	voaf:usedBy	semapv:LexicalMatching	Used by	used by
-mod:usedEngineeringMethodology	skos:closeMatch	adms:representationTechnique	semapv:ManualMappingCuration	Engineering Methodology	representation technique
-mod:usedEngineeringMethodology	skos:exactMatch	mod:methodologyUsed	semapv:ManualMappingCuration	Engineering Methodology	methodology used
-mod:usedEngineeringMethodology	skos:closeMatch	omv:usedOntologyEngineeringMethodology	semapv:ManualMappingCuration	Engineering Methodology	usedOntologyEngineeringMethodology 
-mod:usedEngineeringMethodology	skos:relatedMatch	schema:publishingPrinciples	semapv:ManualMappingCuration	Engineering Methodology	publishingPrinciples
-mod:usedInProject	skos:exactMatch	mod:ontologyInUse	semapv:ManualMappingCuration	Used in project	ontology in use
-owl:backwardCompatibleWith		door:backwardCompatibleWith	semapv:ManualMappingCuration	Backward Compatible	backwardCompatibleWith
-owl:backwardCompatibleWith	skos:exactMatch	omv:isBackwardCompatibleWith	semapv:ManualMappingCuration	Backward Compatible	isBackwardCompatibleWith
-owl:deprecated		idot:obsolete	semapv:ManualMappingCuration	Deprecated	obsolete
-owl:deprecated	skos:exactMatch	mod:obsolete	semapv:ManualMappingCuration	Deprecated	obsolete
-owl:imports	skos:relatedMatch	dcterms:requires	semapv:ManualMappingCuration	Imports	Requires
-owl:imports	skos:exactMatch	omv:useImports	semapv:ManualMappingCuration	Imports	useImports
-owl:imports	skos:narrowMatch	voaf:extends	semapv:ManualMappingCuration	Imports	extends
-owl:incompatibleWith		door:owlIncompatibleWith	semapv:ManualMappingCuration	Incompatible	owlIncompatibleWith 
-owl:incompatibleWith	skos:exactMatch	omv:isIncompatibleWith	semapv:ManualMappingCuration	Incompatible	isIncompatibleWith
-owl:priorVersion	skos:exactMatch	adms:prev	semapv:ManualMappingCuration	Prior version	prev
-owl:priorVersion	skos:relatedMatch	dcterms:isVersionOf	semapv:ManualMappingCuration	Prior version	Is Version Of
-owl:priorVersion	skos:exactMatch	door:priorVersion	semapv:ManualMappingCuration	Prior version	priorVersion 
-owl:priorVersion	skos:exactMatch	omv:hasPriorVersion	semapv:ManualMappingCuration	Prior version	hasPriorVersion 
-owl:priorVersion	skos:exactMatch	prov:wasRevisionOf	semapv:ManualMappingCuration	Prior version	wasRevisionOf
-owl:versionInfo	skos:exactMatch	doap:release	semapv:ManualMappingCuration	Version information	release
-owl:versionInfo	skos:closeMatch	mod:version	semapv:ManualMappingCuration	Version information	version
-owl:versionInfo		oboInOwl:data-version	semapv:ManualMappingCuration	Version information	
-owl:versionInfo		oboInOwl:hasVersion	semapv:ManualMappingCuration	Version information	
-owl:versionInfo	skos:exactMatch	omv:version	semapv:ManualMappingCuration	Version information	version
-owl:versionInfo	skos:exactMatch	pav:version	semapv:ManualMappingCuration	Version information	Version
-owl:versionInfo	skos:closeMatch	schema:version	semapv:ManualMappingCuration	Version information	version
-pav:createdWith	skos:closeMatch	mod:toolUsed	semapv:ManualMappingCuration	Created with	tool used
-pav:createdWith		oboInOwl:auto-generated-by	semapv:ManualMappingCuration	Created with	
-pav:createdWith	skos:closeMatch	omv:usedOntologyEngineeringTool	semapv:ManualMappingCuration	Created with	usedOntologyEngineeringTool
-rdfs:comment	skos:narrowMatch	adms:versionNotes	semapv:ManualMappingCuration	Notes or comments	version notes
-rdfs:comment	skos:closeMatch	omv:notes	semapv:ManualMappingCuration	Notes or comments	notes
-schema:translationOfWork	skos:exactMatch	adms:translation	semapv:ManualMappingCuration	Translation of	translation
-schema:workTranslation	skos:exactMatch	adms:translation	semapv:LexicalMatching	Translation	translation
-schema:workTranslation		mod:translation	semapv:ManualMappingCuration	Translation	
-sd:endpoint	skos:exactMatch	void:sparqlEndpoint	semapv:ManualMappingCuration	SPARQL endpoint	has a SPARQL endpoint at
-vann:example	skos:relatedMatch	schema:workExample	semapv:ManualMappingCuration	Example of use	workExample
-vann:preferredNamespacePrefix		idot:preferredPrefix	semapv:ManualMappingCuration	Preferred Namespace Prefix	preferredPrefix
-vann:preferredNamespacePrefix		oboInOwl:default-namespace	semapv:ManualMappingCuration	Preferred Namespace Prefix	
-vann:preferredNamespacePrefix		oboInOwl:hasDefaultNamespace	semapv:ManualMappingCuration	Preferred Namespace Prefix	
-vann:preferredNamespaceUri	skos:relatedMatch	void:uriSpace	semapv:ManualMappingCuration	Preferred Namespace URI	URI space
-void:exampleResource		idot:exampleIdentifier	semapv:ManualMappingCuration	Example of resource	exampleIdentifier
-void:rootResource	skos:relatedMatch	skos:hasTopConcept	semapv:ManualMappingCuration	Root resources	label
-void:uriRegexPattern		idot:identifierPattern	semapv:ManualMappingCuration	Identifier pattern	identifierPattern
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_provider
+cc:morePermissions	More permissions	skos:relatedMatch	dcterms:rights	Rights	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+cc:useGuidelines	Use guidelines	skos:exactMatch	cc:useGuidelines	useGuidelines	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:accessURL	Access URL	skos:closeMatch	doap:download-page	download page	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:accessURL	Access URL	skos:closeMatch	provenance:canonicalLocation	canonicalLocation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:accessURL	Access URL	skos:exactMatch	omv:resourceLocator	resourceLocator	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:byteSize	byte size	skos:closeMatch	mod_1_0:size	size	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcat:byteSize	byte size	skos:closeMatch	mod_1_2:byteSize	byte size	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcat:byteSize	byte size	skos:exactMatch	mod_1_4:byteSize	byte size	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcat:downloadURL	Download URL	skos:closeMatch	doap:download-mirror	download mirror	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:downloadURL	Download URL	skos:closeMatch	schema:distribution	distribution	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:downloadURL	Download URL	skos:closeMatch	sm_s:filename	electronic file name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:downloadURL	Download URL	skos:exactMatch	dcat:downloadURL	download URL	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:downloadURL	Download URL	skos:relatedMatch	void:dataDump	Data Dump	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:downloadURL	Download URL	skos:relatedMatch	void:dataDump	Data Dump	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:keyword	Keyword	skos:exactMatch	dcat:keyword	keyword	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:keyword	keyword	skos:exactMatch	mod_1_1:keyword	keyword	semapv:LexicalMatching	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcat:keyword	Keyword	skos:exactMatch	schema_u:keywords	keywords	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:keyword	Keyword	skos:exactMatch	sm:keyword	keyword	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:keyword	Keywords	skos:closeMatch	schema:keywords	keywords	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:keyword	Keywords	skos:exactMatch	omv:keywords	keywords	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:broadMatch	mod:document	document	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:closeMatch	doap:wiki	wiki	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:closeMatch	foaf:isPrimaryTopicOf	is primary topic of	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:landingPage	Documentation	skos:closeMatch	foaf:page	page	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcat:landingPage	Documentation	skos:closeMatch	foaf:page	page	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:closeMatch	rdfs:seeAlso	seeAlso	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:closeMatch	vann:usageNote	Usage Note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	Documentation	skos:exactMatch	omv:documentation	documentation	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcat:landingPage	landing page	skos:closeMatch	mod_1_0:document	document	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:abstract	Abstract	skos:exactMatch	dcelements:abstract	Abstract	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:abstract	Abstract	skos:narrowMatch	sm:fileAbstract	file-level abstract	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:abstract	Abstract	skos:narrowMatch	sm:specificationAbstract	specification abstract	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	Access rights	skos:closeMatch	sm:copyright	copyright	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	Access rights	skos:exactMatch	dcelements:rights	Rights	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	Access rights	skos:exactMatch	dcterms:accessRights	Access Rights	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	Access rights	skos:exactMatch	dcterms:rights	Rights	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	Access rights	skos:exactMatch	dcterms:rights	Rights	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:accessRights	access rights	skos:exactMatch	mod_1_0:accessibility	accessibility	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:accrualPeriodicity	Accrual periodicity	skos:closeMatch	nkos:updateFrequency	Update Frequency	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:accrualPeriodicity	Accrual periodicity	skos:exactMatch	dcterms:accrualPeriodicity	Accrual Periodicity	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:alternative	Alternative name	owl:equivalentProperty	idot:alternatePrefix	alternatePrefix	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:alternative	Alternative name	skos:closeMatch	schema:alternateName	alternateName	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:alternative	Alternative name	skos:exactMatch	schema_u:alternateName	alternateName	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:alternative	Alternative name	skos:exactMatch	skos:altLabel	alternative label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:alternative	Alternative name	skos:exactMatch	skos:altLabel	alternative label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:alternative	Alternative name	skos:relatedMatch	obo:IAO_0000589	OBO foundry unique label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:audience	Target audience	skos:closeMatch	adms-ap_it:target	target	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:audience	Target audience	skos:closeMatch	schema:audience	audience	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:audience	Target audience	skos:exactMatch	doap:audience	audience	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	dcterms:bibliographicCitation	Bibliographic Citation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	dcterms:references	References	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	omv:reference	reference	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	schema_u:citation	citation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	schema:citation	citation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:bibliographicCitation	Bibliographic reference	skos:exactMatch	schema:citation	citation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:bibliographicCitation	Bibliographic reference	skos:relatedMatch	foaf:isPrimaryTopicOf	is primary topic of	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:closeMatch	doap:developer	developer	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:closeMatch	doap:helper	helper	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:closeMatch	rec54:editor	editor	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	adms-ap_it:hasContributor	has contributor	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	dcelements:contributor	Contributor	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	dcterms:contributor	Contributor	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	omv:hasContributor	hasContributor	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:exactMatch	relators:ctb	Contributor	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	schema:contributor	contributor	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:exactMatch	schema:contributor	contributor	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:narrowMatch	pav:contributedBy	Contributed by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:relatedMatch	oboInOwl:savedBy	saved_by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	Contributor	skos:relatedMatch	oboInOwl:savedBy	saved_by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:contributor	Contributor	skos:relatedMatch	relators:pdr	Project director	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:coverage	Coverage	skos:exactMatch	dcelements:coverage	Coverage	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:coverage	Coverage	skos:narrowMatch	dcterms:spatial	Spatial Coverage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:coverage	Coverage	skos:narrowMatch	dcterms:spatial	Spatial Coverage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:coverage	Coverage	skos:narrowMatch	dcterms:temporal	Temporal Coverage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:coverage	Coverage	skos:relatedMatch	schema:spatial	spatial	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	owl:equivalentProperty	oboInOwl:date	date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:broadMatch	dcterms:date	Date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:broadMatch	dcterms:date	Date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:closeMatch	d3fend:release-date	release-date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:closeMatch	dcelements:date	Date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:closeMatch	dcterms:issued	Date Issued	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	creation date	skos:closeMatch	mod_1_1:creationDate	creationDate	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:created	Creation date	skos:closeMatch	ont_ann:created	created	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:closeMatch	provenance:provided	provided	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:exactMatch	dcelements:created	Date Created	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:exactMatch	dcterms:created	Date Created	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:exactMatch	omv:creationDate	creationDate	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:exactMatch	pav:createdOn	Created on	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:exactMatch	prov:generatedAtTime	generatedAtTime	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:exactMatch	schema_u:dateCreated	dateCreated	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:exactMatch	schema:dateCreated	dateCreated	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	Creation date	skos:exactMatch	schema:dateCreated	dateCreated	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:relatedMatch	oboInOwl:hasDate	has_date	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:relatedMatch	pav:authoredOn	Authored on	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:created	Creation date	skos:relatedMatch	pav:contributedOn	Contributed on	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:closeMatch	doap:maintainer	maintainer	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:closeMatch	doap:maintainer	maintainer	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:closeMatch	schema:author	author	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:exactMatch	dcelements:creator	Creator	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	dcterms:creator	Creator	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	foaf:maker	maker	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	foaf:maker	maker	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:exactMatch	omv:hasCreator	hasCreator	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:exactMatch	ont_ann:creator	creator	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	prov:wasAttributedTo	wasAttributedTo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	prov:wasAttributedTo	wasAttributedTo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:exactMatch	schema_u:author	author	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	schema_u:creator	creator	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:exactMatch	schema:creator	creator	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	Creator	skos:narrowMatch	pav:authoredBy	Authored by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:creator	Creator	skos:narrowMatch	pav:createdBy	Created by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:dateSubmitted	Submission date	skos:closeMatch	schema:dateIssued	dateIssued	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:dateSubmitted	Submission date	skos:relatedMatch	dcelements:issued	Date Issued	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:dateSubmitted	Submission date	skos:relatedMatch	dcterms:issued	Date Issued	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:dateSubmitted	Submission date	skos:relatedMatch	schema_u:datePublished	datePublished	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:dateSubmitted	Submission date	skos:relatedMatch	schema:datePublished	datePublished	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:description	Description	skos:closeMatch	dcterms:abstract	Abstract	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:closeMatch	rdfs:comment	comment	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:closeMatch	schema:description	description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:description	Description	skos:closeMatch	skos:definition	definition	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:exactMatch	dcelements:description	Description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:exactMatch	dcterms:description	Description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:exactMatch	doap:description	description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:description	Description	skos:exactMatch	ns1:SIO_000563	describes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	Description	skos:exactMatch	omv:description	description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:description	Description	skos:exactMatch	schema_u:description	description	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasFormat	Has format	skos:exactMatch	dcelements:format	Format	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasFormat	Has format	skos:exactMatch	dcterms:format	Format	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:hasPart	Has part (has view)	skos:closeMatch	dcterms:tableOfContents	Table Of Contents	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasPart	Has part (has view)	skos:closeMatch	prof:hasResource	has resource	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasPart	Has part (has view)	skos:exactMatch	dcterms:hasPart	Has Part	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasPart	Has part (has views)	skos:closeMatch	adms:sample	sample	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:hasPart	Has part (has views)	skos:closeMatch	oboInOwl:hasSubset	has_subset	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:hasPart	Has part (has views)	skos:closeMatch	schema:hasPart	hasPart	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:hasVersion	Has version	skos:exactMatch	mod:version	version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:hasVersion	Has version	skos:exactMatch	provenance:version	version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasVersion	Has version	skos:narrowMatch	pav:hasVersion	Has version	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:identifier	Other identifier	skos:closeMatch	adms:identifier	Identifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:identifier	Other identifier	skos:closeMatch	reg:notation	notation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:identifier	Other identifier	skos:closeMatch	schema:identifier	identifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:identifier	Other identifier	skos:closeMatch	schema:identifier	identifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:identifier	Other identifier	skos:closeMatch	skos:notation	notation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:identifier	Other identifier	skos:exactMatch	dcelements:identifier	Identifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:identifier	Other identifier	skos:exactMatch	dcterms:identifier	Identifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isFormatOf	Is format of	skos:exactMatch	dcterms:isFormatOf	Is Format Of	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isPartOf	Is part of (view of)	owl:equivalentProperty	door:includedIn	includedIn	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:isPartOf	is part of (view of)	skos:closeMatch	mod_1_1:module	module	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:isPartOf	Is part of (view of)	skos:closeMatch	oboInOwl:hasSubset	has_subset	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isPartOf	Is part of (view of)	skos:closeMatch	schema:isPartOf	isPartOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:isPartOf	Is part of (view of)	skos:closeMatch	xhtml:chapter	chapter	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isPartOf	Is part of (view of)	skos:closeMatch	xhtml:subsection	subsection	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isPartOf	Is part of (view of)	skos:exactMatch	dcterms:isPartOf	Is Part Of	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:isPartOf	Is part of (view of)	skos:relatedMatch	void:subset	has subset	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:language	Natural language	skos:closeMatch	omv:naturalLanguage	naturalLanguage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:language	Natural language	skos:exactMatch	dcelements:language	Language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:language	Natural language	skos:exactMatch	dcelements:Language	Language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:language	Natural language	skos:exactMatch	dcterms:language	Language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:language	Natural language	skos:exactMatch	doap:language	language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:language	Natural language	skos:exactMatch	schema_u:language	language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:language	Natural language	skos:exactMatch	schema:inLanguage	inLanguage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:language	Natural language	skos:exactMatch	sm:contentLanguage	content language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	cc_s:license	has license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	cc:licence	has license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	cc:license	has license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	cc:license	has license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:license	License	skos:exactMatch	CommonCoreOntologies:code_license	code license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	CommonCoreOntologies:content_license	content license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	dcelements:license	License	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	dcterms_s:license	License	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	dcterms:license	License	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	kbbv:license	license	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	omv:hasLicense	hasLicense	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:license	License	skos:exactMatch	schema_u:license	license	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	schema:license	license	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	License	skos:exactMatch	schema:license	license	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:license	License	skos:exactMatch	xhtml:license	license	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:closeMatch	schema:dateModified	dateModified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:closeMatch	schema:dateModified	dateModified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:modified	Modification date	skos:exactMatch	dcelements:modified	Date Modified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:exactMatch	dcterms:modified	Date Modified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:exactMatch	omv:modificationDate	modificationDate	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:modified	Modification date	skos:exactMatch	ont_ann:modified	modified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:exactMatch	pav:lastUpdateOn	Last updated on	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:modified	Modification date	skos:exactMatch	schema_u:dateModified	dateModified	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	Modification date	skos:relatedMatch	doap:created	created	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:modified	modification date	skos:relatedMatch	mod_1_1:creationDate	creationDate	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:publisher	Publisher	skos:closeMatch	adms:schemaAgency	schema agency	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:publisher	Publisher	skos:closeMatch	schema:publisher	publisher	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:publisher	Publisher	skos:exactMatch	dcelements:publisher	Publisher	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	Publisher	skos:exactMatch	dcterms_hash:publisher	Publisher	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	Publisher	skos:exactMatch	dcterms:publisher	Publisher	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	Publisher	skos:exactMatch	schema_u:publisher	publisher	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	Publisher	skos:exactMatch	schema:publisher	publisher	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	Publisher	skos:relatedMatch	gr:BusinessEntity	Business entity	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:relation	Relation	skos:exactMatch	dcterms:relation	Relation	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:relation	Relation	skos:exactMatch	ont_ann:relation	relation	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:rightsHolder	Rights holder	skos:closeMatch	schema:copyrightHolder	copyrightHolder	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:rightsHolder	Rights holder	skos:closeMatch	schema:copyrightHolder	copyrightHolder	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:rightsHolder	Rights holder	skos:exactMatch	dcat:contactPoint	contact point	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:rightsHolder	Rights holder	skos:exactMatch	dcterms:rightsHolder	Rights Holder	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:closeMatch	cito:citesAsDataSource	cites as data source	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:closeMatch	nkos:basedOn	Based On	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:source	Source	skos:closeMatch	schema:isBasedOn	isBasedOn	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:source	Source	skos:exactMatch	dcelements:source	Source	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:exactMatch	dcterms:source	Source	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	source	skos:exactMatch	mod_1_0:sourceOntology	source ontology	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+dcterms:source	Source	skos:exactMatch	pav:derivedFrom	Derived from	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:source	Source	skos:exactMatch	prov:wasDerivedFrom	wasDerivedFrom	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:exactMatch	prov:wasDerivedFrom	wasDerivedFrom	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:source	Source	skos:narrowMatch	sm:directSource	direct source	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:relatedMatch	prov:wasInfluencedBy	wasInfluencedBy	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:source	Source	skos:relatedMatch	rdfs:isDefinedBy	isDefinedBy	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	Source	skos:relatedMatch	wdrs:describedby	described by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:closeMatch	dcat:theme	theme	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:closeMatch	dcat:theme	theme	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:subject	Subject	skos:closeMatch	foaf:primaryTopic	primary topic	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:closeMatch	foaf:topic	topic	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:subject	Subject	skos:closeMatch	omv:hasDomain	hasDomain	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:subject	Subject	skos:closeMatch	schema_u:about	about	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:closeMatch	schema:about	about	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:closeMatch	schema:about	about	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:subject	Subject	skos:closeMatch	sm:topicArea	topic area	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:exactMatch	dcelements:subject	Subject	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:exactMatch	dcterms:subject	Subject	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	Subject	skos:relatedMatch	rdfs:domain	domain	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	cc:attributionName	attributionName	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:closeMatch	foaf:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	foaf:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:closeMatch	omv:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:closeMatch	rdfs:label	label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	rdfs:label	label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:closeMatch	schema_u:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	schema:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	schema:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:closeMatch	skos-xl:prefLabel	preferred label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:closeMatch	vaem:name	name	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:exactMatch	dcelements:title	Title	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:exactMatch	dcterms:title	Title	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:exactMatch	kbbv:title	title	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:exactMatch	skos:prefLabel	preferred label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	Title	skos:exactMatch	skos:prefLabel	preferred label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:title	Title	skos:narrowMatch	sm:specificationTitle	specification name or title	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:type	Generic Type	skos:exactMatch	adms-ap_it:type	type	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:type	Generic Type	skos:exactMatch	dcelements:type	Type	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:type	Generic Type	skos:exactMatch	dcterms:type	Type	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:type	Generic Type	skos:exactMatch	omv:isOfType	isOfType	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:valid	Validity date	skos:closeMatch	schema:temporalCoverage	temporalCoverage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+dcterms:valid	Validity date	skos:relatedMatch	prov:invalidatedAtTime	invalidatedAtTime	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+doap:bug-database	Bug database	skos:exactMatch	doap:bug-database	bug database	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+doap:mailing-list	Mailing list	skos:closeMatch	sm:addressForComments	addressForComments	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+doap:Repository	Repository	skos:exactMatch	doap:repository	Repository	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+doap:Repository	Repository	skos:exactMatch	schema:codeRepository	codeRepository	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+doap:Repository	Repository	skos:narrowMatch	doap:GitRepository	Git Repository	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:depiction	Depiction	skos:closeMatch	dctype:StillImage	Still Image	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:depiction	Depiction	skos:closeMatch	doap:screenshots	screenshots	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:depiction	Depiction	skos:closeMatch	schema:image	image	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:depiction	Depiction	skos:exactMatch	foaf:depiction	depiction	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:fundedBy	Funded or sponsored by	skos:exactMatch	foaf:fundedBy	funded by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:fundedBy	funded or sponsored by	skos:exactMatch	mod_1_0:sponseredBy	sponsered by	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+foaf:fundedBy	Funded or sponsored by	skos:exactMatch	relators:fnd	Funder	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:fundedBy	Funded or sponsored by	skos:relatedMatch	schema:sourceOrganization	sourceOrganization	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:homepage	Homepage	skos:closeMatch	npg:webpage	Web Page	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:homepage	Homepage	skos:exactMatch	doap:homepage	homepage	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:homepage	Homepage	skos:exactMatch	foaf:homepage	homepage	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:homepage	homepage	skos:exactMatch	mod_1_0:homepage	homepage	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+foaf:homepage	Homepage	skos:narrowMatch	cc:attributionURL	attributionURL	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:homepage	Homepage	skos:narrowMatch	doap:blog	blog	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:homepage	Homepage	skos:relatedMatch	schema:mainEntityOfPage	mainEntityOfPage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:logo	Logo	skos:closeMatch	schema:logo	logo	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:logo	Logo	skos:exactMatch	foaf:logo	logo	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:logo	Logo	skos:exactMatch	schema_u:logo	logo	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:primaryTopic	Key classes	skos:closeMatch	omv:keyClasses	keyClasses	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+foaf:primaryTopic	Key classes	skos:closeMatch	schema:mainEntity	mainEntity	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:acronym	Acronym	skos:closeMatch	provenance:slug	slug	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:acronym	Acronym	skos:closeMatch	sm:specificationAbbreviation	specification abbreviation or acronym	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:acronym	Acronym	skos:exactMatch	adms-ap_it:acronym	acronym	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:acronym	acronym	skos:exactMatch	mod_1_0:acronym	Acronym	semapv:LexicalMatching	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:acronym	Acronym	skos:exactMatch	omv:acronym	acronym	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:acronym	Acronym	skos:exactMatch	qudt:acronym	acronym	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:acronym	Acronym	skos:exactMatch	vaem:acronym	acronym	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:analytics	analytics	skos:exactMatch	mod_1_4:analytics	analytics	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:authorProperty	object author property	skos:exactMatch	mod_1_4:authorProperty	author property	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:averageChildCount	average number of children per class	skos:exactMatch	mod_1_4:averageChildCount	average child count	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:browsingUI	Browsing user interface	skos:exactMatch	mod_1_2:browsingUI	browsing ui	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:browsingUI	Browsing user interface	skos:exactMatch	mod_1_4:browsingUI	browsing ui	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:browsingUI	Browsing user interface	skos:exactMatch	mod_in:browsingUI	Browsing user interface	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:classesWithMoreThan25Children	number of classes with more than 25 children	skos:exactMatch	mod_1_4:classesWithMoreThan25Children	classes with more than 25 children	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:classesWithNoDefinition	number of classes with no definition	skos:exactMatch	mod_1_4:classesWithNoDefinition	classes with no definition	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:classesWithOneChild	number of classes with a single child	skos:exactMatch	mod_1_4:classesWithOneChild	classes with one child	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:comesFromTheSameDomain	Comes from the same domain	owl:equivalentProperty	door:comesFromTheSameDomain	comesFromTheSameDomain	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:competencyQuestion	competency question	skos:exactMatch	mod_1_4:competencyQuestion	competency question	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:competencyQuestion	Competency question	skos:exactMatch	mod_in:competencyQuestion	competency question	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:competencyQuestion	Competency question	skos:exactMatch	mod:competencyQuestion	competency question	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:conformsToKnowledgeRepresentationParadigm	Knowledge representation paradigm	skos:closeMatch	dcterms:conformsTo	Conforms To	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:conformsToKnowledgeRepresentationParadigm	Knowledge representation paradigm	skos:closeMatch	dcterms:conformsTo	Conforms To	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:conformsToKnowledgeRepresentationParadigm	knowledge representation paradigm	skos:exactMatch	mod_1_0:knowledgeRepresentationFormalism	Knowledge Representation Formalism	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:conformsToKnowledgeRepresentationParadigm	Knowledge representation paradigm	skos:exactMatch	omv:conformsToKnowledgeRepresentationParadigm	conformsToKnowledgeRepresentationParadigm	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:createdWith	created with	skos:closeMatch	mod_1_0:toolUsed	tool used	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:curatedBy	Curated by	skos:closeMatch	bibo:editor	editor	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:definitionProperty	object definition property	skos:exactMatch	mod_1_4:definitionProperty	definition property	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:designedForTask	Designed for task	skos:closeMatch	omv:designedForOntologyTask	designedForOntologyTask	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:endorsedBy	Endorsed by	skos:closeMatch	cito:isReviewedBy	is reviewed by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:endorsedBy	Endorsed by	skos:exactMatch	omv:endorsedBy	endorsedBy	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:generalizes	Generalizes	skos:exactMatch	prov:generalizationOf	generalizationOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:generalizes	Generalizes	skos:exactMatch	skos:topConceptOf	is top concept in scheme	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:generalizes	Generalizes	skos:exactMatch	voaf:generalizes	generalizes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:group	group	skos:exactMatch	mod_1_2:group	group	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:group	group	skos:exactMatch	mod_1_4:group	group	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hasDisjunctionsWith	Has disjunctions with	skos:exactMatch	voaf:hasDisjunctionsWith	has disjunctions with	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasDisparateModelling	Disparate modelling with	skos:closeMatch	door:hasDisparateModelling	hasDisparateModelling	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasEquivalencesWith	Has equivalences with	owl:equivalentProperty	door:isAlignedTo	isAlignedTo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasEquivalencesWith	Has equivalences with	skos:closeMatch	nkos:alignedWith	Aligned With	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasEquivalencesWith	Has equivalences with	skos:closeMatch	owl:equivalentClass	equivalentClass	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasEquivalencesWith	Has equivalences with	skos:exactMatch	kbbv:sameAs	same as	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasEquivalencesWith	Has equivalences with	skos:exactMatch	voaf:hasEquivalencesWith	has equivalences with	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasEvaluation	Evaluation	skos:relatedMatch	schema:review	review	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasEvaluation	has evaluation	skos:closeMatch	mod_1_2:evaluatedBy	evaluated by	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hasEvaluation	has evaluation	skos:exactMatch	mod_1_4:hasEvaluation	has evaluation	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hasFormalityLevel	Formality level	skos:exactMatch	adms-ap_it:hasFormalityLevel	has formality level	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasFormalityLevel	formality level	skos:exactMatch	mod_1_0:formalityLevel	formality level	semapv:LexicalMatching	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hasFormalityLevel	Formality level	skos:exactMatch	omv:hasFormalityLevel	hasFormalityLevel	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasRepresentationLanguage	Representation Language	skos:closeMatch	adms-ap_it:hasOntologyLanguage	has language	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasRepresentationLanguage	Representation Language	skos:closeMatch	omv:hasOntologyLanguage	hasOntologyLanguage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasRepresentationLanguage	representation language	skos:exactMatch	mod_1_0:ontologyDesignLanguage	Ontology Design Language	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hasRepresentationLanguage	Representation Language	skos:relatedMatch	dcat:distribution	Distribution	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasRepresentationLanguage	Representation Language	skos:relatedMatch	schema:fileFormat	fileFormat	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasSyntax	Syntax	skos:closeMatch	dcterms:format	Format	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasSyntax	Syntax	skos:closeMatch	dcterms:hasFormat	Has Format	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:hasSyntax	Syntax	skos:closeMatch	omv:hasOntologySyntax	hasOntologySyntax	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:hasSyntax	syntax	skos:exactMatch	mod_1_0:syntax	syntax	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:hierarchyProperty	transitive hierarchy property	skos:exactMatch	mod_1_4:hierarchyProperty	hierarchy property	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:knownUsage	Known usage	skos:exactMatch	omv:knownUsage	knownUsage	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:maxChildCount	maximum number of children per class	skos:exactMatch	mod_1_4:maxChildCount	max child count	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:maxDepth	maximum depth of the hierarchy	skos:exactMatch	mod_1_4:maxDepth	max depth	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:metadataVoc	Metadata vocabulary used	skos:closeMatch	adms:supportedSchema	supported schema	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:metadataVoc	metadata vocabulary used	skos:closeMatch	mod_1_0:vocabularyUsed	vocabulary used	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:metadataVoc	Metadata vocabulary used	skos:closeMatch	schema:schemaVersion	schemaVersion	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:metadataVoc	Metadata vocabulary used	skos:exactMatch	voaf:metadataVoc	metadata vocabulary	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:metadataVoc	metadata vocubulary used	skos:closeMatch	mod_1_2:vocabularyUsed	vocabulary used	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfAxioms	Number of axioms or triples	skos:closeMatch	void:triples	number of triples	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfAxioms	number of axioms or triples	skos:exactMatch	mod_1_0:numberOfAxioms	number of axioms	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfAxioms	Number of axioms or triples	skos:exactMatch	omv:numberOfAxioms	numAxioms	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfClasses	number of classes	skos:exactMatch	mod_1_0:classes	classes	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfClasses	Number of classes	skos:exactMatch	omv:numberOfClasses	numClasses	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfClasses	Number of classes	skos:exactMatch	voaf:classNumber	number of classes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:numberOfClasses	Number of classes	skos:exactMatch	voaf:classNumber	number of classes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfClasses	Number of classes	skos:exactMatch	void:classes	classes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:numberOfClasses	Number of classes	skos:exactMatch	void:classes	classes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfDataProperties	number of data properties	skos:exactMatch	mod_1_2:numberOfDataProperties	number of data properties	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfDataProperties	number of data properties	skos:exactMatch	mod_1_4:numberOfDataProperties	Number Of Data Properties	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfIndividuals	Number of individuals	skos:closeMatch	void:entities	number of entities	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:numberOfIndividuals	Number of individuals	skos:closeMatch	void:entities	number of entities	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfIndividuals	number of individuals	skos:exactMatch	mod_1_0:individuals	individuals	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfIndividuals	Number of individuals	skos:exactMatch	omv:numberOfIndividuals	numIndividuals	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfLabels	number of labels	skos:exactMatch	mod_1_4:numberOfLabels	number of labels	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfObjectProperties	number of object properties	skos:exactMatch	mod_1_2:numberOfObjectProperties	number of object properties	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfObjectProperties	number of object properties	skos:exactMatch	mod_1_4:numberOfObjectProperties	Number Of Object Properties	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfProperties	number of properties	skos:exactMatch	mod_1_0:properties	properties	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:numberOfProperties	Number of properties	skos:exactMatch	omv:numberOfProperties	numProperties	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfProperties	Number of properties	skos:exactMatch	voaf:propertyNumber	number of properties	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:numberOfProperties	Number of properties	skos:exactMatch	voaf:propertyNumber	number of properties	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:numberOfProperties	Number of properties	skos:exactMatch	void:properties	number of properties	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:numberOfProperties	Number of properties	skos:exactMatch	void:properties	number of properties	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:obsoleteParent	root of obsolete branch	skos:exactMatch	mod_1_4:obsoleteParent	obsolete parent	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:obsoleteProperty	object obsolete property	skos:exactMatch	mod_1_4:obsoleteProperty	obsolete property	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:reliesOn	Relies on	skos:closeMatch	sm:dependsOn	depends on	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:reliesOn	Relies on	skos:exactMatch	voaf:reliesOn	relies on	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:reliesOn	Relies on	skos:exactMatch	voaf:reliesOn	relies on	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:reliesOn	Relies on	skos:relatedMatch	void:vocabulary	vocabulary	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:reliesOn	Relies on	skos:relatedMatch	void:vocabulary	vocabulary	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:sampleQueries	sample queries	skos:exactMatch	mod_1_4:sampleQueries	sample queries	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:semanticArtefactRelation	Generally related to	skos:exactMatch	rdfs:seeAlso	seeAlso	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:semanticArtefactRelation	Generally related to	skos:exactMatch	skos:related	has related	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:semanticArtefactRelation	Generaly related to	owl:equivalentProperty	door:ontologyRelatedTo	ontologyRelatedTo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:similar	Similar to	owl:equivalentProperty	door:similarTo	similarTo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:similar	Similar to	skos:exactMatch	voaf:similar	similar	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:similar	Similar to	skos:relatedMatch	owl:sameAs	sameAs	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:specializes	Specializes	owl:equivalentProperty	door:explanationEvolution	explanationEvolution	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:specializes	Specializes	skos:exactMatch	prov:specializationOf	specializationOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:specializes	Specializes	skos:exactMatch	prov:specializationOf	specializationOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:specializes	Specializes	skos:exactMatch	voaf:specializes	specializes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:specializes	Specializes	skos:exactMatch	voaf:specializes	specializes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:specializes	Status	skos:exactMatch	bibo:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	owl:equivalentProperty	idot:state	state	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:status	Status	skos:closeMatch	vs_s:term_status	term status	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:closeMatch	vs:term_status	term status	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:exactMatch	adms-ap_it:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:exactMatch	adms:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:exactMatch	adms:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:status	Status	skos:exactMatch	omv:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:status	Status	skos:narrowMatch	provenance:public	public	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:narrowMatch	sm:specificationVersionStatus	specification version status	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:status	Status	skos:relatedMatch	fibo-fnd-utl-av:hasMaturityLevel	has maturity level	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:synonymProperty	Object synonym property	skos:exactMatch	mod_1_4:synonymProperty	synonym property	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:synonymProperty	Object synonym property	skos:relatedMatch	oboInOwl:hasSynonymType	has_synonym_type	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:synonymProperty	Object synonym property	skos:relatedMatch	oboInOwl:synonymtypedef	synonymtypedef	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:toDoList	To Do List	skos:closeMatch	adms-ap_it:hasTask	has task	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:toDoList	To Do List	skos:exactMatch	voaf:toDoList	to-do list	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:toDoList	To Do List	skos:exactMatch	voaf:toDoList	to-do list	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:URI	URI	skos:closeMatch	owl:ontologyIRI	ontologyIRI	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:URI	URI	skos:exactMatch	bibo:uri	uri	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:URI	URI	skos:exactMatch	omv:URI	URI	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:URI	URI	skos:exactMatch	vaem:namespace	namespace	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:URI	URI	skos:relatedMatch	sm:specificationURL	specification URL	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+mod:usedBy	Used by	skos:exactMatch	nkos:usedBy	Used By	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:usedBy	Used by	skos:exactMatch	voaf:usedBy	used by	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:usedEngineeringMethodology	Engineering Methodology	skos:closeMatch	adms:representationTechnique	representation technique	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:usedEngineeringMethodology	Engineering Methodology	skos:closeMatch	omv:usedOntologyEngineeringMethodology	usedOntologyEngineeringMethodology	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:usedEngineeringMethodology	engineering methodology	skos:exactMatch	mod_1_0:methodologyUsed	methodology used	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:usedEngineeringMethodology	Engineering Methodology	skos:relatedMatch	schema:publishingPrinciples	publishingPrinciples	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+mod:usedInProject	used in project	skos:closeMatch	mod_1_2:ontologyInUse	ontology in use	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:usedInProject	used in project	skos:closeMatch	mod_1_4:ontologyInUse	ontology in use	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:usedInProject	used in project	skos:exactMatch	mod_1_0:ontologyInUse	ontology in use	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+mod:usedInProject	Used in project	skos:relatedMatch	adms-ap_it:semanticAssetInUse	semantic asset in use	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:backwardCompatibleWith	Backward Compatible	owl:equivalentProperty	door:backwardCompatibleWith	backwardCompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:backwardCompatibleWith	Backward Compatible	skos:exactMatch	omv:isBackwardCompatibleWith	isBackwardCompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:backwardCompatibleWith	Backward Compatible	skos:exactMatch	owl:backwardCompatibleWith	backwardCompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:deprecated	Deprecated	owl:equivalentProperty	idot:obsolete	obsolete	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:deprecated	deprecated	skos:closeMatch	mod_1_1:deprecated	deprecated	semapv:LexicalMatching	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+owl:deprecated	Deprecated	skos:exactMatch	mod:obsolete	obsolete	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:imports	Imports	skos:closeMatch	dcterms:requires	Requires	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:imports	Imports	skos:exactMatch	omv:useImports	useImports	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:imports	Imports	skos:exactMatch	owl:imports	imports	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:imports	Imports	skos:exactMatch	spin:imports	imports	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:imports	Imports	skos:narrowMatch	voaf:extends	extends	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:imports	Imports	skos:relatedMatch	dcterms:requires	Requires	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:incompatibleWith	Incompatible	owl:equivalentProperty	door:owlIncompatibleWith	owlIncompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:incompatibleWith	Incompatible	skos:exactMatch	omv:isIncompatibleWith	isIncompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:incompatibleWith	Incompatible	skos:exactMatch	owl:incompatibleWith	incompatibleWith	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:closeMatch	dcterms:replaces	Replaces	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:exactMatch	adms:prev	prev	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:priorVersion	Prior version	skos:exactMatch	door:priorVersion	priorVersion	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:priorVersion	Prior version	skos:exactMatch	omv:hasPriorVersion	hasPriorVersion	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:priorVersion	Prior version	skos:exactMatch	owl:priorVersion	priorVersion	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:exactMatch	prov:wasRevisionOf	wasRevisionOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:exactMatch	prov:wasRevisionOf	wasRevisionOf	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:priorVersion	Prior version	skos:exactMatch	sm:priorVersion	prior version	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:relatedMatch	dcterms:isVersionOf	Is Version Of	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:priorVersion	Prior version	skos:relatedMatch	dcterms:isVersionOf	Is Version Of	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:closeMatch	dcterms:hasVersion	Has Version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	Version information	skos:closeMatch	kbbv:version	Version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	version information	skos:closeMatch	mod_1_0:version	version	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+owl:versionInfo	Version information	skos:closeMatch	mod:version	version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:closeMatch	oboInOwl:data-version	data-version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:closeMatch	oboInOwl:hasVersion	has_version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:closeMatch	schema_u:schemaVersion	schemaVersion	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	Version information	skos:closeMatch	schema:version	version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:closeMatch	vaem:revision	revision	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	Version information	skos:exactMatch	doap:release	release	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:exactMatch	omv:version	version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionInfo	Version information	skos:exactMatch	owl:versionInfo	versionInfo	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	Version information	skos:exactMatch	pav:version	Version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionInfo	Version information	skos:exactMatch	pav:version	Version	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+owl:versionIRI	Version IRI	skos:exactMatch	owl:versionIRI	versionIRI	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+owl:versionIRI	Version IRI	skos:relatedMatch	sm:specificationVersionURL	specification version URL	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+pav:createdWith	Created with	skos:closeMatch	oboInOwl:auto-generated-by	auto-generated-by	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+pav:createdWith	Created with	skos:closeMatch	omv:usedOntologyEngineeringTool	usedOntologyEngineeringTool	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+prov:wasGeneratedBy	Was generated by	skos:exactMatch	prov:wasGeneratedBy	wasGeneratedBy	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:closeMatch	omv:notes	notes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+rdfs:comment	Notes or comments	skos:exactMatch	kbbv:comment	comment	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:exactMatch	schema_u:comment	comment	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:exactMatch	skos:note	note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	adms:versionNotes	version notes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	adms:versionNotes	version notes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+rdfs:comment	Notes or comments	skos:narrowMatch	madsrdf:definitionNote	Definition Note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	obo:IAO_0000116	editor note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	provenance:changeReason	changeReason	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	radion:versionNotes	version notes	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	skos:changeNote	change note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	skos:editorialNote	editorial note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	skos:historyNote	history note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	skos:scopeNote	scope note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+rdfs:comment	Notes or comments	skos:narrowMatch	skos.ref:historyNote	history note	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+schema:Comment	User notes or reviews	skos:exactMatch	schema:comment	comment	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+schema:translationOfWork	Translation of	skos:exactMatch	adms:translation	translation	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+schema:workTranslation	Translation	skos:exactMatch	adms:translation	translation	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+schema:workTranslation	Translation	skos:exactMatch	mod:translation	translation	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+schema:workTranslation	work translation	skos:closeMatch	mod_1_2:translation	translation	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+sd:endpoint	SPARQL endpoint	skos:exactMatch	void:sparqlEndpoint	has a SPARQL endpoint at	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+sd:endpoint	SPARQL endpoint	skos:exactMatch	void:sparqlEndpoint	has a SPARQL endpoint at	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+vann:changes	Changes	skos:exactMatch	meta:changeHistory	Change History	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:changes	Changes	skos:exactMatch	vann:changes	Changes	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:example	Example of use	skos:exactMatch	frbr:realization	realization	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:example	Example of use	skos:relatedMatch	schema:workExample	workExample	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	owl:equivalentProperty	idot:preferredPrefix	preferredPrefix	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	skos:closeMatch	adms-ap_it:prefix	prefix	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	skos:closeMatch	oboInOwl:hasDefaultNamespace	has_default_namespace	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	skos:closeMatch	vaem:namespacePrefix	namespace prefix	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	skos:exactMatch	vann_2:preferredNamespacePrefix	Preferred Namespace Prefix	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespacePrefix	Preferred Namespace Prefix	skos:exactMatch	vann:preferredNamespacePrefix	Preferred Namespace Prefix	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespaceUri	Preferred Namespace URI	skos:exactMatch	vann_2:preferredNamespaceUri	Preferred Namespace Uri	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespaceUri	Preferred Namespace URI	skos:exactMatch	vann:preferredNamespaceUri	Preferred Namespace Uri	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespaceUri	Preferred Namespace URI	skos:relatedMatch	void:uriSpace	URI space	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+vann:preferredNamespaceUri	Preferred Namespace URI	skos:relatedMatch	void:uriSpace	URI space	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+void:exampleResource	Example of resource	owl:equivalentProperty	idot:exampleIdentifier	exampleIdentifier	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+void:exampleResource	Example of resource	skos:exactMatch	skos:example	example	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:exampleResource	Example of resource	skos:exactMatch	vann:example	Example	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:exampleResource	Example of resource	skos:exactMatch	void:exampleResource	example resource of dataset	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:rootResource	Root resources	skos:closeMatch	mod_1_2:rootClasses	root classes	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_ontology.owl
+void:rootResource	Root resources	skos:closeMatch	obo:IAO_0000700	has ontology root term	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:rootResource	Root resources	skos:closeMatch	ui:hierarchyRootProperty	hierarchy root property	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:rootResource	Root resources	skos:exactMatch	void:rootResource	root resource	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:rootResource	Root resources	skos:relatedMatch	skos:hasTopConcept	label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+void:rootResource	Root resources	skos:relatedMatch	skos:hasTopConcept	label	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
+void:uriRegexPattern	Identifier pattern	owl:equivalentProperty	idot:identifierPattern	identifierPattern	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/1APdKgSCFKlM8Wxi4WCl_weaiU7x3I-xW6cgg-RS3_zw/edit#gid=1638855124
