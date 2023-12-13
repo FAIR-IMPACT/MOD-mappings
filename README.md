@@ -5,10 +5,9 @@ This project provides mappings between the MOD ontology and a number other ontol
 ## Repository Structure
 
 * [config/](config/) - configuration files
-    * [inverse_predicate_map.yml](config/inverse_predicate_map.yml)
     * [project-cruft.json](config/project-cruft.json) -- edit this if you need to change any of the project template values in [.cruft.json](.cruft.json)
 * [mappings/](mappings/) - SSSOM mapping files (do not edit these)
-* [src/](src/) - source files (edit these)
+* [sources/](sources/) - source files (edit these)
 
 
 ## Developer Documentation

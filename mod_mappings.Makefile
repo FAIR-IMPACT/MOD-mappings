@@ -2,4 +2,4 @@
 ## 
 
 $(MAPPING_DIR)/%.sssom.tsv:
-	sssom parse $< sources/sssom/$*.sssom.tsv --metadata sources/$*.sssom.yml -o $@
+	sssom parse $< sources/$*.tsv --metadata sources/$*_metadata.yml -o $@
