@@ -7,29 +7,27 @@ curie_map:
     cito: http://purl.org/spar/cito/
     CommonCoreOntologies: http://www.ontologyrepository.com/CommonCoreOntologies/
     d3fend: http://d3fend.mitre.org/ontologies/d3fend.owl#
+    dc: http://purl.org/dc/elements/1.1/  
     dcat: http://www.w3.org/ns/dcat#
-    dcelements: http://purl.org/dc/elements/1.1/
     dcterms: http://purl.org/dc/terms/
     dcterms_hash: http://purl.org/dc/terms#
     dcterms_s: https://purl.org/dc/terms/
-    dctype: http://purl.org/dc/dcmitype/
+    dctypes: http://purl.org/dc/dcmitype/
     doap: http://usefulinc.com/ns/doap#
-    door: http://kannel.open.ac.uk/ontology
+    door: http://kannel.open.ac.uk/ontology#
     fibo-fnd-utl-av: https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
     foaf: http://xmlns.com/foaf/0.1/
     frbr: http://purl.org/vocab/frbr/core#
     gr: http://purl.org/goodrelations/v1#
-    idot: http://identifiers.org/
+    idot: http://identifiers.org/idot/
     kbbv: https://id.kb.se/vocab/
     madsrdf: http://www.loc.gov/mads/rdf/v1#
     meta: http://credreg.net/meta/terms/
     mod: https://w3id.org/mod#
     mod_1_0: http://www.isibang.ac.in/ns/mod/1.0/
     mod_1_1: https://www.isibang.ac.in/ns/mod/1.1/
-    mod_1_2: https://www.isibang.ac.in/ns/mod/1.2/
-    mod_1_4: https://www.isibang.ac.in/ns/mod/1.4/
     mod_in: http://www.isibang.ac.in/ns/mod#
-    nkos: http://w3id.org/nkos/nkostype#
+    nkos: http://w3id.org/nkos#
     npg: http://ns.nature.com/terms/
     ns1: http://semanticscience.org/resource/
     obo: http://purl.obolibrary.org/obo/
@@ -49,7 +47,7 @@ curie_map:
     relators: http://id.loc.gov/vocabulary/relators/
     schema: https://schema.org/
     schema_u: http://schema.org/
-    sd: http://www.w3.org/ns/sparql-service-description
+    sd: http://www.w3.org/ns/sparql-service-description#
     skos: http://www.w3.org/2004/02/skos/core#
     skos-xl: http://www.w3.org/2008/05/skos-xl#
     skos.ref: http://www.w3.org/2009/08/skos-reference/skos.rdf#

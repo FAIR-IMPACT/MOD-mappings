@@ -17,11 +17,11 @@ dcat:landingPage	landing page	skos:closeMatch	mod_1_0:document	document	semapv:M
 dcat:landingPage	landing page	skos:closeMatch	rdfs:seeAlso	seeAlso	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcat:landingPage	landing page	skos:closeMatch	vann:usageNote	Usage Note	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcat:landingPage	landing page	skos:exactMatch	omv:documentation	documentation	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:abstract	abstract	skos:exactMatch	dcelements:abstract	Abstract	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:abstract	abstract	skos:exactMatch	dc:abstract	Abstract	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:abstract	abstract	skos:narrowMatch	sm:fileAbstract	file-level abstract	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:abstract	abstract	skos:narrowMatch	sm:specificationAbstract	specification abstract	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:accessRights	access rights	skos:closeMatch	sm:copyright	copyright	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:accessRights	access rights	skos:exactMatch	dcelements:rights	Rights	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:accessRights	access rights	skos:exactMatch	dc:rights	Rights	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:accessRights	access rights	skos:exactMatch	dcterms:rights	Rights	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:accessRights	access rights	skos:exactMatch	mod_1_0:accessibility	accessibility	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:alternative	alternative name	skos:closeMatch	schema:alternateName	alternateName	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -41,22 +41,22 @@ dcterms:contributor	contributor	skos:closeMatch	doap:developer	developer	semapv:
 dcterms:contributor	contributor	skos:closeMatch	doap:helper	helper	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:contributor	contributor	skos:closeMatch	rec54:editor	editor	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:contributor	contributor	skos:exactMatch	adms-ap_it:hasContributor	has contributor	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:contributor	contributor	skos:exactMatch	dcelements:contributor	Contributor	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:contributor	contributor	skos:exactMatch	dc:contributor	Contributor	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:contributor	contributor	skos:exactMatch	omv:hasContributor	hasContributor	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:contributor	contributor	skos:exactMatch	relators:ctb	Contributor	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:contributor	contributor	skos:exactMatch	schema:contributor	contributor	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:contributor	contributor	skos:narrowMatch	pav:contributedBy	Contributed by	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:contributor	contributor	skos:relatedMatch	oboInOwl:savedBy	saved_by	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:contributor	contributor	skos:relatedMatch	relators:pdr	Project director	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:coverage	coverage	skos:exactMatch	dcelements:coverage	Coverage	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:coverage	coverage	skos:exactMatch	dc:coverage	Coverage	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:coverage	coverage	skos:narrowMatch	dcterms:spatial	Spatial Coverage	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:coverage	coverage	skos:narrowMatch	dcterms:temporal	Temporal Coverage	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:created	creation date	skos:closeMatch	d3fend:release-date	release-date	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:created	creation date	skos:closeMatch	dcelements:date	Date	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	creation date	skos:closeMatch	dc:date	Date	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:created	creation date	skos:closeMatch	dcterms:issued	Date Issued	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:created	creation date	skos:closeMatch	ont_ann:created	created	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:created	creation date	skos:closeMatch	provenance:provided	provided	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:created	creation date	skos:exactMatch	dcelements:created	Date Created	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:created	creation date	skos:exactMatch	dc:created	Date Created	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:created	creation date	skos:exactMatch	mod_1_1:creationDate	creationDate	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:created	creation date	skos:exactMatch	omv:creationDate	creationDate	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:created	creation date	skos:exactMatch	pav:createdOn	Created on	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -69,7 +69,7 @@ dcterms:created	creation date	skos:relatedMatch	pav:authoredOn	Authored on	semap
 dcterms:created	creation date	skos:relatedMatch	pav:contributedOn	Contributed on	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:creator	creator	skos:closeMatch	doap:maintainer	maintainer	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:creator	creator	skos:closeMatch	schema:author	author	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:creator	creator	skos:exactMatch	dcelements:creator	Creator	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:creator	creator	skos:exactMatch	dc:creator	Creator	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:creator	creator	skos:exactMatch	foaf:maker	maker	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:creator	creator	skos:exactMatch	omv:hasCreator	hasCreator	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:creator	creator	skos:exactMatch	ont_ann:creator	creator	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
@@ -80,19 +80,19 @@ dcterms:creator	creator	skos:exactMatch	schema:creator	creator	semapv:LexicalMat
 dcterms:creator	creator	skos:narrowMatch	pav:authoredBy	Authored by	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:creator	creator	skos:narrowMatch	pav:createdBy	Created by	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:dateSubmitted	date submitted	skos:closeMatch	schema:dateIssued	dateIssued	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:dateSubmitted	date submitted	skos:relatedMatch	dcelements:issued	Date Issued	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:dateSubmitted	date submitted	skos:relatedMatch	dc:issued	Date Issued	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:dateSubmitted	date submitted	skos:relatedMatch	schema_u:datePublished	datePublished	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:dateSubmitted	date submitted	skos:relatedMatch	schema:datePublished	datePublished	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:description	description	skos:closeMatch	dcterms:abstract	Abstract	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:description	description	skos:closeMatch	rdfs:comment	comment	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:description	description	skos:closeMatch	schema:description	description	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:description	description	skos:closeMatch	skos:definition	definition	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:description	description	skos:exactMatch	dcelements:description	Description	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:description	description	skos:exactMatch	dc:description	Description	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:description	description	skos:exactMatch	doap:description	description	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:description	description	skos:exactMatch	ns1:SIO_000563	describes	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:description	description	skos:exactMatch	omv:description	description	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:description	description	skos:exactMatch	schema_u:description	description	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:hasFormat	has format	skos:exactMatch	dcelements:format	Format	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:hasFormat	has format	skos:exactMatch	dc:format	Format	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:hasFormat	has format	skos:relatedMatch	schema:hasPart	hasPart	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:hasPart	has part (has view)	skos:closeMatch	adms:sample	sample	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:hasPart	has part (has view)	skos:closeMatch	dcterms:tableOfContents	Table Of Contents	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
@@ -106,7 +106,7 @@ dcterms:identifier	Other identifier	skos:closeMatch	adms:identifier	Identifier	s
 dcterms:identifier	Other identifier	skos:closeMatch	reg:notation	notation	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:identifier	Other identifier	skos:closeMatch	schema:identifier	identifier	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:identifier	Other identifier	skos:closeMatch	skos:notation	notation	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:identifier	Other identifier	skos:exactMatch	dcelements:identifier	Identifier	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:identifier	Other identifier	skos:exactMatch	dc:identifier	Identifier	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:isFormatOf	is format of	skos:relatedMatch	schema:hasPart	hasPart	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:isPartOf	is part of (view of)	skos:closeMatch	mod_1_1:module	module	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:isPartOf	is part of (view of)	skos:closeMatch	oboInOwl:hasSubset	has_subset	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
@@ -116,7 +116,7 @@ dcterms:isPartOf	is part of (view of)	skos:closeMatch	xhtml:subsection	subsectio
 dcterms:isPartOf	is part of (view of)	skos:relatedMatch	door:includedIn	includedIn	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:isPartOf	is part of (view of)	skos:relatedMatch	void:subset	has subset	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:language	natural language	skos:closeMatch	omv:naturalLanguage	naturalLanguage	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:language	natural language	skos:exactMatch	dcelements:language	Language	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:language	natural language	skos:exactMatch	dc:language	Language	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:language	natural language	skos:exactMatch	doap:language	language	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:language	natural language	skos:exactMatch	schema_u:language	language	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:language	natural language	skos:exactMatch	schema:inLanguage	inLanguage	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -126,7 +126,7 @@ dcterms:license	license	skos:exactMatch	cc:licence	has license	semapv:ManualMapp
 dcterms:license	license	skos:exactMatch	cc:license	has license	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:license	license	skos:exactMatch	CommonCoreOntologies:code_license	code license	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:license	license	skos:exactMatch	CommonCoreOntologies:content_license	content license	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:license	license	skos:exactMatch	dcelements:license	License	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:license	license	skos:exactMatch	dc:license	License	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:license	license	skos:exactMatch	dcterms_s:license	License	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:license	license	skos:exactMatch	kbbv:license	license	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:license	license	skos:exactMatch	omv:hasLicense	hasLicense	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -134,7 +134,7 @@ dcterms:license	license	skos:exactMatch	schema_u:license	license	semapv:LexicalM
 dcterms:license	license	skos:exactMatch	schema:license	license	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:license	license	skos:exactMatch	xhtml:license	license	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:modified	modification date	skos:closeMatch	schema:dateModified	dateModified	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:modified	modification date	skos:exactMatch	dcelements:modified	Date Modified	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:modified	modification date	skos:exactMatch	dc:modified	Date Modified	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:modified	modification date	skos:exactMatch	omv:modificationDate	modificationDate	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:modified	modification date	skos:exactMatch	ont_ann:modified	modified	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:modified	modification date	skos:exactMatch	pav:lastUpdateOn	Last updated on	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -142,7 +142,7 @@ dcterms:modified	modification date	skos:exactMatch	schema_u:dateModified	dateMod
 dcterms:modified	modification date	skos:relatedMatch	mod_1_1:creationDate	creationDate	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:publisher	publisher	skos:closeMatch	adms:schemaAgency	schema agency	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:publisher	publisher	skos:closeMatch	schema:publisher	publisher	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:publisher	publisher	skos:exactMatch	dcelements:publisher	Publisher	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:publisher	publisher	skos:exactMatch	dc:publisher	Publisher	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:publisher	publisher	skos:exactMatch	dcterms_hash:publisher	Publisher	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:publisher	publisher	skos:exactMatch	schema_u:publisher	publisher	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:publisher	publisher	skos:relatedMatch	gr:BusinessEntity	Business entity	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
@@ -152,7 +152,7 @@ dcterms:rightsHolder	rights holder	skos:exactMatch	dcat:contactPoint	contact poi
 dcterms:source	source	skos:closeMatch	cito:citesAsDataSource	cites as data source	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:source	source	skos:closeMatch	nkos:basedOn	Based On	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:source	source	skos:closeMatch	schema:isBasedOn	isBasedOn	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
-dcterms:source	source	skos:exactMatch	dcelements:source	Source	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:source	source	skos:exactMatch	dc:source	Source	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:source	source	skos:exactMatch	mod_1_0:sourceOntology	source ontology	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:source	source	skos:exactMatch	pav:derivedFrom	Derived from	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:source	source	skos:exactMatch	prov:wasDerivedFrom	wasDerivedFrom	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -167,7 +167,7 @@ dcterms:subject	subject	skos:closeMatch	omv:hasDomain	hasDomain	semapv:ManualMap
 dcterms:subject	subject	skos:closeMatch	schema_u:about	about	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:subject	subject	skos:closeMatch	schema:about	about	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:subject	subject	skos:closeMatch	sm:topicArea	topic area	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:subject	subject	skos:exactMatch	dcelements:subject	Subject	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:subject	subject	skos:exactMatch	dc:subject	Subject	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:subject	subject	skos:relatedMatch	rdfs:domain	domain	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:title	title	skos:closeMatch	cc:attributionName	attributionName	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:title	title	skos:closeMatch	foaf:name	name	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -176,19 +176,19 @@ dcterms:title	title	skos:closeMatch	schema_u:name	name	semapv:ManualMappingCurat
 dcterms:title	title	skos:closeMatch	schema:name	name	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:title	title	skos:closeMatch	skos-xl:prefLabel	preferred label	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:title	title	skos:closeMatch	vaem:name	name	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:title	title	skos:exactMatch	dcelements:title	Title	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:title	title	skos:exactMatch	dc:title	Title	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:title	title	skos:exactMatch	kbbv:title	title	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:title	title	skos:exactMatch	skos:prefLabel	preferred label	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:title	title	skos:narrowMatch	sm:specificationTitle	specification name or title	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:type	Generic Type	skos:exactMatch	adms-ap_it:type	type	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-dcterms:type	Generic Type	skos:exactMatch	dcelements:type	Type	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+dcterms:type	Generic Type	skos:exactMatch	dc:type	Type	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 dcterms:type	type	skos:exactMatch	omv:isOfType	isOfType	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:valid	validity date	skos:relatedMatch	prov:invalidatedAtTime	invalidatedAtTime	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 dcterms:valid	validity date	skos:relatedMatch	schema:endDate	endDate	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 doap:mailing-list	Mailing list	skos:closeMatch	sm:addressForComments	addressForComments	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 doap:Repository	Repository	skos:exactMatch	schema:codeRepository	codeRepository	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 doap:Repository	Repository	skos:narrowMatch	doap:GitRepository	Git Repository	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
-foaf:depiction	depiction	skos:closeMatch	dctype:StillImage	Still Image	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
+foaf:depiction	depiction	skos:closeMatch	dctypes:StillImage	Still Image	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 foaf:depiction	depiction	skos:closeMatch	doap:screenshots	screenshots	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 foaf:depiction	depiction	skos:closeMatch	schema:image	image	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
 foaf:fundedBy	funded or sponsored by	skos:exactMatch	mod_1_0:sponsoredBy	sponsered by	semapv:ManualMappingCuration			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
