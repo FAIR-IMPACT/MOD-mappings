@@ -2,6 +2,7 @@ curie_map:
     adms: http://www.w3.org/ns/adms#
     adms-ap_it: https://w3id.org/italia/onto/ADMS/
     bibo: http://purl.org/ontology/bibo/
+    cbim: http://www.coinsweb.nl/cbim-2.0.rdf#
     cc: http://creativecommons.org/ns#
     cc_s: https://creativecommons.org/ns#
     cito: http://purl.org/spar/cito/
@@ -10,8 +11,12 @@ curie_map:
     dc: http://purl.org/dc/elements/1.1/  
     dcat: http://www.w3.org/ns/dcat#
     dcterms: http://purl.org/dc/terms/
-    dcterms_hash: http://purl.org/dc/terms#
-    dcterms_s: https://purl.org/dc/terms/
+    dcterms_e1: http://purl.org/dc/terms
+    dcterms_e2: http://purl.org/dc/terms/#
+    dcterms_e3: http://purl.org/dc/terms#
+    dcterms_e4: https://purl.org/dc/terms/
+    dcterms_e5: http://dublincore.org/documents/dcmi-terms/
+    dcterms_e6: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#
     dctypes: http://purl.org/dc/dcmitype/
     doap: http://usefulinc.com/ns/doap#
     door: http://kannel.open.ac.uk/ontology#
@@ -57,7 +62,7 @@ curie_map:
     ui: http://purl.org/linked-data/registry-ui#
     vaem: http://www.linkedmodel.org/schema/vaem#
     vann: http://purl.org/vocab/vann/
-    vann_2: http://vocab.org/vann/
+    vann_e1: http://vocab.org/vann/
     voaf: http://purl.org/vocommons/voaf#
     void: http://rdfs.org/ns/void#
     vs: http://www.w3.org/2003/06/sw-vocab-status/ns#
