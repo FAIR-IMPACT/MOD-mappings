@@ -332,6 +332,7 @@ mod:status	status	skos:closeMatch	vs_s:term_status	term status	semapv:ManualMapp
 mod:status	status	skos:closeMatch	vs:term_status	term status	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:exactMatch	adms-ap_it:status	status	semapv:LexicalMatching			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:exactMatch	adms:status	status	semapv:LexicalMatching			https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
+mod:status	status	skos:exactMatch	schema:creativeWorkStatus	creativeWorkStatus	semapv:ManualMappingCuration			
 mod:status	status	skos:narrowMatch	provenance:public	public	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:narrowMatch	sm:specificationVersionStatus	specification version status	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:relatedMatch	fibo-fnd-utl-av:hasMaturityLevel	has maturity level	semapv:ManualMappingCuration			https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0

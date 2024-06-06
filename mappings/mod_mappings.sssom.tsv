@@ -1,7 +1,6 @@
 # curie_map:
 #   CommonCoreOntologies: http://www.ontologyrepository.com/CommonCoreOntologies/
 #   adms: http://www.w3.org/ns/adms#
-#   adms-ap_it: https://w3id.org/italia/onto/ADMS/
 #   bibo: http://purl.org/ontology/bibo/
 #   cbim: http://www.coinsweb.nl/cbim-2.0.rdf#
 #   cc: http://creativecommons.org/ns#
@@ -20,7 +19,6 @@
 #   dctypes: http://purl.org/dc/dcmitype/
 #   doap: http://usefulinc.com/ns/doap#
 #   door: http://kannel.open.ac.uk/ontology#
-#   fibo-fnd-utl-av: https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
 #   foaf: http://xmlns.com/foaf/0.1/
 #   frbr: http://purl.org/vocab/frbr/core#
 #   gr: http://purl.org/goodrelations/v1#
@@ -56,7 +54,6 @@
 #   sd: http://www.w3.org/ns/sparql-service-description#
 #   semapv: https://w3id.org/semapv/vocab/
 #   skos: http://www.w3.org/2004/02/skos/core#
-#   skos-xl: http://www.w3.org/2008/05/skos-xl#
 #   skos.ref: http://www.w3.org/2009/08/skos-reference/skos.rdf#
 #   sm: http://www.omg.org/techprocess/ab/SpecificationMetadata/
 #   sm_s: https://www.omg.org/techprocess/ab/SpecificationMetadata/
@@ -74,7 +71,7 @@
 #   xhtml: http://www.w3.org/1999/xhtml/vocab#
 # license: https://w3id.org/sssom/license/unspecified
 # mapping_date: '2023-12-11'
-# mapping_set_id: https://w3id.org/sssom/mappings/ac7f3ed7-3def-4c25-989c-539d4760c0f8
+# mapping_set_id: https://w3id.org/sssom/mappings/42b451cc-c088-4b57-af26-b24536365484
 # mapping_set_version: '2023-12-11'
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_provider
 dcat:accessURL	access URL	skos:closeMatch	doap:download-page	download page	semapv:ManualMappingCuration	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
@@ -414,6 +411,7 @@ mod:status	status	skos:closeMatch	vs:term_status	term status	semapv:ManualMappin
 mod:status	status	skos:closeMatch	vs_s:term_status	term status	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:exactMatch	adms-ap_it:status	status	semapv:LexicalMatching	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:exactMatch	adms:status	status	semapv:LexicalMatching	https://raw.githubusercontent.com/FAIR-IMPACT/MOD/main/mod-v2.0_profile.ttl
+mod:status	status	skos:exactMatch	schema:creativeWorkStatus	creativeWorkStatus	semapv:ManualMappingCuration	
 mod:status	status	skos:narrowMatch	provenance:public	public	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:narrowMatch	sm:specificationVersionStatus	specification version status	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0
 mod:status	status	skos:relatedMatch	fibo-fnd-utl-av:hasMaturityLevel	has maturity level	semapv:ManualMappingCuration	https://docs.google.com/spreadsheets/d/16o_ov9fh2Mipuo2991Okpm6rUC1SPSMLLPqNNt-Kfwo/edit#gid=0

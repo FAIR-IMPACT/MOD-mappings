@@ -2,7 +2,7 @@
 
 The data are stored in an Google Sheet. Any changes to the mappings should be made in this
 spreadsheet. For easier review of diffs, for example git diff or unix diff, sort column by
-column from left to right.
+column from right to left.
 
 Once changes have been made download the sheet as a `tsv` file. This will be the new version
 of the [mod_mappings.tsv](mod_mappings.tsv) file.
